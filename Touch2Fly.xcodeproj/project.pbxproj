@@ -1,0 +1,1722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E21FAB41A8E70460013469E /* greenCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E21FAB31A8E70460013469E /* greenCheck.png */; };
+		4E21FAB61A8E704D0013469E /* redx.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E21FAB51A8E704D0013469E /* redx.png */; };
+		4E59A20A1A89DC73003C8FA9 /* AOOs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E59A2091A89DC73003C8FA9 /* AOOs.m */; };
+		4E59A20D1A89DC73003C8FA9 /* SubTaskDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E59A20C1A89DC73003C8FA9 /* SubTaskDescription.m */; };
+		4E59A2101A89DC73003C8FA9 /* Tasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E59A20F1A89DC73003C8FA9 /* Tasks.m */; };
+		4E59A2131A89DC73003C8FA9 /* TaskDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E59A2121A89DC73003C8FA9 /* TaskDescription.m */; };
+		4E77BA431A96A05900662730 /* References.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E77BA421A96A05900662730 /* References.m */; };
+		4EA48EA51A903B75002B7717 /* Seed.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EA48EA41A903B75002B7717 /* Seed.json */; };
+		4EBCC5321AA7913800205AAA /* PPLData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCC5311AA7913800205AAA /* PPLData.sqlite */; };
+		4EBCC5361AA794A900205AAA /* Decision.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBCC5351AA794A900205AAA /* Decision.m */; };
+		4EBCC5381AA7DB8800205AAA /* FlightBag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCC5371AA7DB8800205AAA /* FlightBag.jpeg */; };
+		4ED91E581A9A973C00D8E24F /* AC-150-5340-18F Airport lighting.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D901A9A973C00D8E24F /* AC-150-5340-18F Airport lighting.pdf */; };
+		4ED91E591A9A973C00D8E24F /* AC-91-73B Airport lighting.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D911A9A973C00D8E24F /* AC-91-73B Airport lighting.pdf */; };
+		4ED91E5A1A9A973C00D8E24F /* AIM-Chapter 2 Airport lighting.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D921A9A973C00D8E24F /* AIM-Chapter 2 Airport lighting.pdf */; };
+		4ED91E5B1A9A973C00D8E24F /* PHOAN-Chapter 13 Airport lighting.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D931A9A973C00D8E24F /* PHOAN-Chapter 13 Airport lighting.pdf */; };
+		4ED91E5C1A9A973C00D8E24F /* SEA-Chapter 3 Airport lighting.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D941A9A973C00D8E24F /* SEA-Chapter 3 Airport lighting.pdf */; };
+		4ED91E5D1A9A973C00D8E24F /* AIM-Chapter 4 Radio.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D961A9A973C00D8E24F /* AIM-Chapter 4 Radio.pdf */; };
+		4ED91E5E1A9A973C00D8E24F /* PHOAN-Chapter 13 Radio.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D971A9A973C00D8E24F /* PHOAN-Chapter 13 Radio.pdf */; };
+		4ED91E5F1A9A973C00D8E24F /* AC-90-66A Traffic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D991A9A973C00D8E24F /* AC-90-66A Traffic.pdf */; };
+		4ED91E601A9A973C00D8E24F /* AFH-Chapter 7 Traffic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D9A1A9A973C00D8E24F /* AFH-Chapter 7 Traffic.pdf */; };
+		4ED91E611A9A973C00D8E24F /* AIM-Chapter 4 Traffic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D9B1A9A973C00D8E24F /* AIM-Chapter 4 Traffic.pdf */; };
+		4ED91E621A9A973C00D8E24F /* PHOAN-Chapter 13 Traffic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D9C1A9A973C00D8E24F /* PHOAN-Chapter 13 Traffic.pdf */; };
+		4ED91E631A9A973C00D8E24F /* AC 150-5340-18F Standards for Airport Signs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D9E1A9A973C00D8E24F /* AC 150-5340-18F Standards for Airport Signs.pdf */; };
+		4ED91E641A9A973C00D8E24F /* AC 00-6A Aviation Weather.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D9F1A9A973C00D8E24F /* AC 00-6A Aviation Weather.pdf */; };
+		4ED91E651A9A973C00D8E24F /* AC 61-67C  Stall and Spin Training.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DA01A9A973C00D8E24F /* AC 61-67C  Stall and Spin Training.pdf */; };
+		4ED91E661A9A973C00D8E24F /* AC 91-73B Taxi Operations.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DA11A9A973C00D8E24F /* AC 91-73B Taxi Operations.pdf */; };
+		4ED91E671A9A973C00D8E24F /* AC-00-45G Aviation Weather Services.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DA21A9A973C00D8E24F /* AC-00-45G Aviation Weather Services.pdf */; };
+		4ED91E681A9A973C00D8E24F /* AC 61-84B Role of Preflight Preparation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DA31A9A973C00D8E24F /* AC 61-84B Role of Preflight Preparation.pdf */; };
+		4ED91E691A9A973C00D8E24F /* AC 90-66A Standard Traffic Patterns at Uncontrolled Airports.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DA41A9A973C00D8E24F /* AC 90-66A Standard Traffic Patterns at Uncontrolled Airports.pdf */; };
+		4ED91E6A1A9A973C00D8E24F /* AC 91-13C Cold Weather Operations.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DA51A9A973C00D8E24F /* AC 91-13C Cold Weather Operations.pdf */; };
+		4ED91E6B1A9A973C00D8E24F /* AC 91-55 Reduction of Electrical Failures.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DA61A9A973C00D8E24F /* AC 91-55 Reduction of Electrical Failures.pdf */; };
+		4ED91E6D1A9A973C00D8E24F /* Coast Guard Navigation Rules and Regulations Handbook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DA81A9A973C00D8E24F /* Coast Guard Navigation Rules and Regulations Handbook.pdf */; };
+		4ED91E6E1A9A973C00D8E24F /* errata_sheet_150_5340_18f.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DA91A9A973C00D8E24F /* errata_sheet_150_5340_18f.pdf */; };
+		4ED91E6F1A9A973C00D8E24F /* Instrument Flying Handbook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DAA1A9A973C00D8E24F /* Instrument Flying Handbook.pdf */; };
+		4ED91E701A9A973C00D8E24F /* Aircraft Weight and Balance Handbook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DAB1A9A973C00D8E24F /* Aircraft Weight and Balance Handbook.pdf */; };
+		4ED91E721A9A973C00D8E24F /* Airplane Flying Handbook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DAD1A9A973C00D8E24F /* Airplane Flying Handbook.pdf */; };
+		4ED91E731A9A973C00D8E24F /* Advanced Avionics Handbook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DAE1A9A973C00D8E24F /* Advanced Avionics Handbook.pdf */; };
+		4ED91E741A9A973C00D8E24F /* AFH-Chapter 16 const climbs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DB11A9A973C00D8E24F /* AFH-Chapter 16 const climbs.pdf */; };
+		4ED91E751A9A973C00D8E24F /* IFH-Chapter 4 and 5 const climbs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DB21A9A973C00D8E24F /* IFH-Chapter 4 and 5 const climbs.pdf */; };
+		4ED91E761A9A973C00D8E24F /* AFH-Chapter 16 const descent.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DB41A9A973C00D8E24F /* AFH-Chapter 16 const descent.pdf */; };
+		4ED91E771A9A973C00D8E24F /* IFH-Chapter 4 and 5 const descent.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DB51A9A973C00D8E24F /* IFH-Chapter 4 and 5 const descent.pdf */; };
+		4ED91E781A9A973C00D8E24F /* AFH-Chapter 10 inst services.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DB71A9A973C00D8E24F /* AFH-Chapter 10 inst services.pdf */; };
+		4ED91E791A9A973C00D8E24F /* IFH-Chapter 7 inst services.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DB81A9A973C00D8E24F /* IFH-Chapter 7 inst services.pdf */; };
+		4ED91E7A1A9A973C00D8E24F /* PHOAN-Chapter 15 inst services.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DB91A9A973C00D8E24F /* PHOAN-Chapter 15 inst services.pdf */; };
+		4ED91E7B1A9A973C00D8E24F /* AFH-Chapter 16 unusual attitude.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DBB1A9A973C00D8E24F /* AFH-Chapter 16 unusual attitude.pdf */; };
+		4ED91E7C1A9A973C00D8E24F /* IFH-Chapter 4 and 5 unusual attitude.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DBC1A9A973C00D8E24F /* IFH-Chapter 4 and 5 unusual attitude.pdf */; };
+		4ED91E7D1A9A973C00D8E24F /* AFH-Chapter 16 straight and level.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DBE1A9A973C00D8E24F /* AFH-Chapter 16 straight and level.pdf */; };
+		4ED91E7E1A9A973C00D8E24F /* IFH-Chapter 4 and 5 straight and level.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DBF1A9A973C00D8E24F /* IFH-Chapter 4 and 5 straight and level.pdf */; };
+		4ED91E7F1A9A973C00D8E24F /* AFH-Chapter 16 turns heading.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DC11A9A973C00D8E24F /* AFH-Chapter 16 turns heading.pdf */; };
+		4ED91E801A9A973C00D8E24F /* IFH-Chapter 4 and 5 turns heading.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DC21A9A973C00D8E24F /* IFH-Chapter 4 and 5 turns heading.pdf */; };
+		4ED91E811A9A973C00D8E24F /* AFH-Chapter 16 emrg ldg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DC51A9A973C00D8E24F /* AFH-Chapter 16 emrg ldg.pdf */; };
+		4ED91E821A9A973C00D8E24F /* AFH-Chapter 16 emrg descent.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DC71A9A973C00D8E24F /* AFH-Chapter 16 emrg descent.pdf */; };
+		4ED91E831A9A973C00D8E24F /* AFH-Chapter 16 survival gear.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DC91A9A973C00D8E24F /* AFH-Chapter 16 survival gear.pdf */; };
+		4ED91E841A9A973C00D8E24F /* AFH-Chapter 16 malfunction.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DCB1A9A973C00D8E24F /* AFH-Chapter 16 malfunction.pdf */; };
+		4ED91E851A9A973C00D8E24F /* AFH-Chapter 6 Rec Course.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DCE1A9A973C00D8E24F /* AFH-Chapter 6 Rec Course.pdf */; };
+		4ED91E861A9A973C00D8E24F /* AFH-Chapter 6 STurns.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DD01A9A973C00D8E24F /* AFH-Chapter 6 STurns.pdf */; };
+		4ED91E871A9A973C00D8E24F /* AFH-Chapter 6 Turns Point.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DD21A9A973C00D8E24F /* AFH-Chapter 6 Turns Point.pdf */; };
+		4ED91E881A9A973C00D8E24F /* AIM-Table Of Contents diversion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DD51A9A973C00D8E24F /* AIM-Table Of Contents diversion.pdf */; };
+		4ED91E891A9A973C00D8E24F /* PHOAN-Chapter 15 diversion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DD61A9A973C00D8E24F /* PHOAN-Chapter 15 diversion.pdf */; };
+		4ED91E8A1A9A973C00D8E24F /* AIM-Chapter 6 Lost.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DD81A9A973C00D8E24F /* AIM-Chapter 6 Lost.pdf */; };
+		4ED91E8B1A9A973C00D8E24F /* PHOAN-Chapter 15 Lost.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DD91A9A973C00D8E24F /* PHOAN-Chapter 15 Lost.pdf */; };
+		4ED91E8C1A9A973C00D8E24F /* AAH-All navigation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DDB1A9A973C00D8E24F /* AAH-All navigation.pdf */; };
+		4ED91E8D1A9A973C00D8E24F /* AFH-Chapter 10 navigation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DDC1A9A973C00D8E24F /* AFH-Chapter 10 navigation.pdf */; };
+		4ED91E8E1A9A973C00D8E24F /* AIM-Chapter 1 navigation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DDD1A9A973C00D8E24F /* AIM-Chapter 1 navigation.pdf */; };
+		4ED91E8F1A9A973C00D8E24F /* PHOAN-Chapter 15 navigation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DDE1A9A973C00D8E24F /* PHOAN-Chapter 15 navigation.pdf */; };
+		4ED91E901A9A973C00D8E24F /* PHOAN-Chapter 15 Pilotage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DE01A9A973C00D8E24F /* PHOAN-Chapter 15 Pilotage.pdf */; };
+		4ED91E911A9A973C00D8E24F /* AFH-Chapter 10 night.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DE31A9A973C00D8E24F /* AFH-Chapter 10 night.pdf */; };
+		4ED91E921A9A973C00D8E24F /* AIM-Chapter 2 night.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DE41A9A973C00D8E24F /* AIM-Chapter 2 night.pdf */; };
+		4ED91E931A9A973C00D8E24F /* PHOAN-Chapter 16 night.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DE51A9A973C00D8E24F /* PHOAN-Chapter 16 night.pdf */; };
+		4ED91E941A9A973C00D8E24F /* 3-SteepTurns.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DE81A9A973C00D8E24F /* 3-SteepTurns.pdf */; };
+		4ED91E951A9A973C00D8E24F /* AFH-Chapter 2 after ldg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DEB1A9A973C00D8E24F /* AFH-Chapter 2 after ldg.pdf */; };
+		4ED91E961A9A973C00D8E24F /* AIM-Chapter 8 Aeromadical.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DF11A9A973C00D8E24F /* AIM-Chapter 8 Aeromadical.pdf */; };
+		4ED91E971A9A973C00D8E24F /* PHOAN-Chapter 16 aeromedical.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DF21A9A973C00D8E24F /* PHOAN-Chapter 16 aeromedical.pdf */; };
+		4ED91E981A9A973C00D8E24F /* PHOAN-Chapter 8 airworthy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DF41A9A973C00D8E24F /* PHOAN-Chapter 8 airworthy.pdf */; };
+		4ED91E991A9A973C00D8E24F /* AFH-Chapter 2 certs and docs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DF61A9A973C00D8E24F /* AFH-Chapter 2 certs and docs.pdf */; };
+		4ED91E9A1A9A973C00D8E24F /* PHOAN-Chapter 1 and 8 certs and docs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DF71A9A973C00D8E24F /* PHOAN-Chapter 1 and 8 certs and docs.pdf */; };
+		4ED91E9B1A9A973C00D8E24F /* SEAPlane-Chapter 1 certs and docs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DF81A9A973C00D8E24F /* SEAPlane-Chapter 1 certs and docs.pdf */; };
+		4ED91E9C1A9A973C00D8E24F /* AC-61-84 cross country.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DFA1A9A973C00D8E24F /* AC-61-84 cross country.pdf */; };
+		4ED91E9D1A9A973C00D8E24F /* AIM Chapter 9 cross country.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DFB1A9A973C00D8E24F /* AIM Chapter 9 cross country.pdf */; };
+		4ED91E9E1A9A973C00D8E24F /* PHOAN Chapter 10 and 15 cross country.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DFC1A9A973C00D8E24F /* PHOAN Chapter 10 and 15 cross country.pdf */; };
+		4ED91E9F1A9A973C00D8E24F /* AIM-Chapter 3 airspace.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DFE1A9A973C00D8E24F /* AIM-Chapter 3 airspace.pdf */; };
+		4ED91EA01A9A973C00D8E24F /* PHOAN-Chapter 14 airspace.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91DFF1A9A973C00D8E24F /* PHOAN-Chapter 14 airspace.pdf */; };
+		4ED91EA11A9A973C00D8E24F /* PHOAN-Chapter 2,5,6,7 system.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E011A9A973C00D8E24F /* PHOAN-Chapter 2,5,6,7 system.pdf */; };
+		4ED91EA21A9A973C00D8E24F /* SEA-Chapter 7 system.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E021A9A973C00D8E24F /* SEA-Chapter 7 system.pdf */; };
+		4ED91EA31A9A973C00D8E24F /* AC-61-84 performance.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E041A9A973C00D8E24F /* AC-61-84 performance.pdf */; };
+		4ED91EA41A9A973C00D8E24F /* PHOAN-Chapter 4 and 10 performance.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E051A9A973C00D8E24F /* PHOAN-Chapter 4 and 10 performance.pdf */; };
+		4ED91EA51A9A973C00D8E24F /* WBH-Chapter 1 performance.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E061A9A973C00D8E24F /* WBH-Chapter 1 performance.pdf */; };
+		4ED91EA61A9A973C00D8E24F /* AIM-Chapter 2 sea base.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E081A9A973C00D8E24F /* AIM-Chapter 2 sea base.pdf */; };
+		4ED91EA71A9A973C00D8E24F /* Coast Guard Rules sea base.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E091A9A973C00D8E24F /* Coast Guard Rules sea base.pdf */; };
+		4ED91EA81A9A973C00D8E24F /* SEA-Chpater 1 and 3 sea base.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E0A1A9A973C00D8E24F /* SEA-Chpater 1 and 3 sea base.pdf */; };
+		4ED91EA91A9A973C00D8E24F /* SEA-Chapter 3 characteristics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E0C1A9A973C00D8E24F /* SEA-Chapter 3 characteristics.pdf */; };
+		4ED91EAA1A9A973C00D8E24F /* AC 00-6A weather.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E0E1A9A973C00D8E24F /* AC 00-6A weather.pdf */; };
+		4ED91EAB1A9A973C00D8E24F /* AC-00-45 weather.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E0F1A9A973C00D8E24F /* AC-00-45 weather.pdf */; };
+		4ED91EAC1A9A973C00D8E24F /* AC-61-84 weather.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E101A9A973C00D8E24F /* AC-61-84 weather.pdf */; };
+		4ED91EAD1A9A973C00D8E24F /* PHOAN-Chapter 11 and 12 Weather.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E111A9A973C00D8E24F /* PHOAN-Chapter 11 and 12 Weather.pdf */; };
+		4ED91EAE1A9A973C00D8E24F /* AFH-Chapter 2 before takeoff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E141A9A973C00D8E24F /* AFH-Chapter 2 before takeoff.pdf */; };
+		4ED91EAF1A9A973C00D8E24F /* SEA-Chapter 4 before takeoff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E151A9A973C00D8E24F /* SEA-Chapter 4 before takeoff.pdf */; };
+		4ED91EB01A9A973C00D8E24F /* AFH-Chapter 2 cockpit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E171A9A973C00D8E24F /* AFH-Chapter 2 cockpit.pdf */; };
+		4ED91EB11A9A973C00D8E24F /* AC-91-13C Engine start.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E191A9A973C00D8E24F /* AC-91-13C Engine start.pdf */; };
+		4ED91EB21A9A973C00D8E24F /* AC-91-55 Engine start.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E1A1A9A973C00D8E24F /* AC-91-55 Engine start.pdf */; };
+		4ED91EB31A9A973C00D8E24F /* AFH-Chapter 2 Engine start.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E1B1A9A973C00D8E24F /* AFH-Chapter 2 Engine start.pdf */; };
+		4ED91EB41A9A973C00D8E24F /* PHOAN-Chpater 6 Engine Start.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E1C1A9A973C00D8E24F /* PHOAN-Chpater 6 Engine Start.pdf */; };
+		4ED91EB51A9A973C00D8E24F /* SEA-Chapter 4 Engine Start.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E1D1A9A973C00D8E24F /* SEA-Chapter 4 Engine Start.pdf */; };
+		4ED91EB61A9A973C00D8E24F /* AFH-Chapter 2 p inspection.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E1F1A9A973C00D8E24F /* AFH-Chapter 2 p inspection.pdf */; };
+		4ED91EB71A9A973C00D8E24F /* AIM-Chpater 5 sec 1 p inspection.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E201A9A973C00D8E24F /* AIM-Chpater 5 sec 1 p inspection.pdf */; };
+		4ED91EB81A9A973C00D8E24F /* SEA-Chapter 4 p inspection.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E211A9A973C00D8E24F /* SEA-Chapter 4 p inspection.pdf */; };
+		4ED91EB91A9A973C00D8E24F /* AC 91-73B incursion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E231A9A973C00D8E24F /* AC 91-73B incursion.pdf */; };
+		4ED91EBA1A9A973C00D8E24F /* AC-150-5340-18F incursion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E241A9A973C00D8E24F /* AC-150-5340-18F incursion.pdf */; };
+		4ED91EBB1A9A973C00D8E24F /* AFH-Chapter 1 incursion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E251A9A973C00D8E24F /* AFH-Chapter 1 incursion.pdf */; };
+		4ED91EBC1A9A973C00D8E24F /* AIM-Chapter 7 incursion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E261A9A973C00D8E24F /* AIM-Chapter 7 incursion.pdf */; };
+		4ED91EBD1A9A973C00D8E24F /* PHOAN-Chapter13 incursion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E271A9A973C00D8E24F /* PHOAN-Chapter13 incursion.pdf */; };
+		4ED91EBE1A9A973C00D8E24F /* Coast Guard Rules T and S.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E291A9A973C00D8E24F /* Coast Guard Rules T and S.pdf */; };
+		4ED91EBF1A9A973C00D8E24F /* SEA-Chapter 4 Tand S.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E2A1A9A973C00D8E24F /* SEA-Chapter 4 Tand S.pdf */; };
+		4ED91EC01A9A973C00D8E24F /* AFH-Chapter 2 Taxiing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E2C1A9A973C00D8E24F /* AFH-Chapter 2 Taxiing.pdf */; };
+		4ED91EC11A9A973C00D8E24F /* AC-61-67C maneuvering slow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E2F1A9A973C00D8E24F /* AC-61-67C maneuvering slow.pdf */; };
+		4ED91EC21A9A973C00D8E24F /* PHOAN-Chapter 4 maneuvering slow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E301A9A973C00D8E24F /* PHOAN-Chapter 4 maneuvering slow.pdf */; };
+		4ED91EC31A9A973C00D8E24F /* AC-61-67C off stalls.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E321A9A973C00D8E24F /* AC-61-67C off stalls.pdf */; };
+		4ED91EC41A9A973C00D8E24F /* PHOAN-Chapter 4 off stalls.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E331A9A973C00D8E24F /* PHOAN-Chapter 4 off stalls.pdf */; };
+		4ED91EC51A9A973C00D8E24F /* AC-61-67C on stalls.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E351A9A973C00D8E24F /* AC-61-67C on stalls.pdf */; };
+		4ED91EC61A9A973C00D8E24F /* PHOAN-Chapter 4 on stalls.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E361A9A973C00D8E24F /* PHOAN-Chapter 4 on stalls.pdf */; };
+		4ED91EC71A9A973C00D8E24F /* AC-61-67C spin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E381A9A973C00D8E24F /* AC-61-67C spin.pdf */; };
+		4ED91EC81A9A973C00D8E24F /* PHOAN-Chapter 4 spin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E391A9A973C00D8E24F /* PHOAN-Chapter 4 spin.pdf */; };
+		4ED91EC91A9A973C00D8E24F /* AFH-Chapter 8 Slip.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E3C1A9A973C00D8E24F /* AFH-Chapter 8 Slip.pdf */; };
+		4ED91ECA1A9A973C00D8E24F /* SEA-Chapter 6 Glassy Ldg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E3E1A9A973C00D8E24F /* SEA-Chapter 6 Glassy Ldg.pdf */; };
+		4ED91ECB1A9A973C00D8E24F /* SEA-Chapter 4 Glassy TO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E401A9A973C00D8E24F /* SEA-Chapter 4 Glassy TO.pdf */; };
+		4ED91ECC1A9A973C00D8E24F /* AFH-Chapter 8 GoAround.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E421A9A973C00D8E24F /* AFH-Chapter 8 GoAround.pdf */; };
+		4ED91ECD1A9A973C00D8E24F /* SEA-Chapter 6 GoAround.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E431A9A973C00D8E24F /* SEA-Chapter 6 GoAround.pdf */; };
+		4ED91ECE1A9A973C00D8E24F /* AFH-Chapter 8 Normal Takeoff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E451A9A973C00D8E24F /* AFH-Chapter 8 Normal Takeoff.pdf */; };
+		4ED91ECF1A9A973C00D8E24F /* SEA-Chapter 6 Normal Takeoff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E461A9A973C00D8E24F /* SEA-Chapter 6 Normal Takeoff.pdf */; };
+		4ED91ED01A9A973C00D8E24F /* AFH-Chapter 5 Normal Takeoff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E481A9A973C00D8E24F /* AFH-Chapter 5 Normal Takeoff.pdf */; };
+		4ED91ED11A9A973C00D8E24F /* SEA-Chapter 4 Normal takeoff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E491A9A973C00D8E24F /* SEA-Chapter 4 Normal takeoff.pdf */; };
+		4ED91ED21A9A973C00D8E24F /* SEA-Chapter 6 Rough Ldg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E4B1A9A973C00D8E24F /* SEA-Chapter 6 Rough Ldg.pdf */; };
+		4ED91ED31A9A973C00D8E24F /* SEA Chapter 6 Rough TO.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E4D1A9A973C00D8E24F /* SEA Chapter 6 Rough TO.pdf */; };
+		4ED91ED41A9A973C00D8E24F /* AFH-Chapter 8 Short Landing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E4F1A9A973C00D8E24F /* AFH-Chapter 8 Short Landing.pdf */; };
+		4ED91ED51A9A973C00D8E24F /* SEA-Chapter 6 Short Landing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E501A9A973C00D8E24F /* SEA-Chapter 6 Short Landing.pdf */; };
+		4ED91ED61A9A973C00D8E24F /* AFH-Chapter 5 Short Takeoff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E521A9A973C00D8E24F /* AFH-Chapter 5 Short Takeoff.pdf */; };
+		4ED91ED71A9A973C00D8E24F /* SEA-Chapter 4 Short Takeoff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E531A9A973C00D8E24F /* SEA-Chapter 4 Short Takeoff.pdf */; };
+		4ED91ED81A9A973C00D8E24F /* AFH-Chapter 8 Soft Landing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E551A9A973C00D8E24F /* AFH-Chapter 8 Soft Landing.pdf */; };
+		4ED91ED91A9A973C00D8E24F /* AFH-Chapter 5 Soft Takeoff.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91E571A9A973C00D8E24F /* AFH-Chapter 5 Soft Takeoff.pdf */; };
+		4EDBE7161A8AA8BA00274F23 /* TaskCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDBE7141A8AA8BA00274F23 /* TaskCellController.m */; };
+		4EDBE7171A8AA8BA00274F23 /* TaskCellController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDBE7151A8AA8BA00274F23 /* TaskCellController.xib */; };
+		4EEF04881AA4FA2600F5DA72 /* SEA-Chapter 6 emrg ldg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF04871AA4FA2600F5DA72 /* SEA-Chapter 6 emrg ldg.pdf */; };
+		4EEF048A1AA4FA3A00F5DA72 /* SEA Chapter 6 after ldg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF04891AA4FA3A00F5DA72 /* SEA Chapter 6 after ldg.pdf */; };
+		4EEF048C1AA4FA4500F5DA72 /* SEA Chapter 6 anchoring.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF048B1AA4FA4500F5DA72 /* SEA Chapter 6 anchoring.pdf */; };
+		4EEF048E1AA4FA4D00F5DA72 /* SEA Chapter 6 dock moor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF048D1AA4FA4D00F5DA72 /* SEA Chapter 6 dock moor.pdf */; };
+		4EEF04901AA4FA5500F5DA72 /* SEA Chapter 6 ramp beach.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF048F1AA4FA5500F5DA72 /* SEA Chapter 6 ramp beach.pdf */; };
+		4EEF04931AA50C0500F5DA72 /* MoreStuffTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF04921AA50C0500F5DA72 /* MoreStuffTableViewController.m */; };
+		4EEF04961AA51C0E00F5DA72 /* SettingsAndProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF04951AA51C0E00F5DA72 /* SettingsAndProgressViewController.m */; };
+		4EEF04991AA51C3700F5DA72 /* FullDocumentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF04981AA51C3700F5DA72 /* FullDocumentListViewController.m */; };
+		4EEF049C1AA53C7200F5DA72 /* GlobalDecisions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF049B1AA53C7200F5DA72 /* GlobalDecisions.m */; };
+		4EFF760E1A87F0F1001439BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF760D1A87F0F1001439BC /* main.m */; };
+		4EFF76111A87F0F1001439BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF76101A87F0F1001439BC /* AppDelegate.m */; };
+		4EFF76141A87F0F1001439BC /* Touch2Fly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF76121A87F0F1001439BC /* Touch2Fly.xcdatamodeld */; };
+		4EFF76171A87F0F1001439BC /* AOOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF76161A87F0F1001439BC /* AOOViewController.m */; };
+		4EFF761A1A87F0F1001439BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFF76181A87F0F1001439BC /* Main.storyboard */; };
+		4EFF761C1A87F0F1001439BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFF761B1A87F0F1001439BC /* Images.xcassets */; };
+		4EFF761F1A87F0F1001439BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EFF761D1A87F0F1001439BC /* LaunchScreen.xib */; };
+		4EFF762B1A87F0F1001439BC /* Touch2FlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF762A1A87F0F1001439BC /* Touch2FlyTests.m */; };
+		4EFF763A1A87F579001439BC /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF76391A87F579001439BC /* TaskViewController.m */; };
+		4EFF763E1A87F5FD001439BC /* TaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF763D1A87F5FD001439BC /* TaskDetailViewController.m */; };
+		4EFF76461A892041001439BC /* AOOCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFF76441A892041001439BC /* AOOCellController.m */; };
+		4EFF76471A892041001439BC /* AOOCellController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EFF76451A892041001439BC /* AOOCellController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EFF76251A87F0F1001439BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFF76001A87F0F1001439BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EFF76071A87F0F1001439BC;
+			remoteInfo = Touch2Fly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E21FAB31A8E70460013469E /* greenCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenCheck.png; sourceTree = "<group>"; };
+		4E21FAB51A8E704D0013469E /* redx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redx.png; sourceTree = "<group>"; };
+		4E21FAB71A8F28BE0013469E /* TaskViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskViewControllerProtocol.h; sourceTree = "<group>"; };
+		4E59A2081A89DC73003C8FA9 /* AOOs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOOs.h; sourceTree = "<group>"; };
+		4E59A2091A89DC73003C8FA9 /* AOOs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOOs.m; sourceTree = "<group>"; };
+		4E59A20B1A89DC73003C8FA9 /* SubTaskDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTaskDescription.h; sourceTree = "<group>"; };
+		4E59A20C1A89DC73003C8FA9 /* SubTaskDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTaskDescription.m; sourceTree = "<group>"; };
+		4E59A20E1A89DC73003C8FA9 /* Tasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tasks.h; sourceTree = "<group>"; };
+		4E59A20F1A89DC73003C8FA9 /* Tasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tasks.m; sourceTree = "<group>"; };
+		4E59A2111A89DC73003C8FA9 /* TaskDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDescription.h; sourceTree = "<group>"; };
+		4E59A2121A89DC73003C8FA9 /* TaskDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDescription.m; sourceTree = "<group>"; };
+		4E77BA411A96A05900662730 /* References.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = References.h; sourceTree = "<group>"; };
+		4E77BA421A96A05900662730 /* References.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = References.m; sourceTree = "<group>"; };
+		4EA48EA41A903B75002B7717 /* Seed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Seed.json; sourceTree = "<group>"; };
+		4EBCC5311AA7913800205AAA /* PPLData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = PPLData.sqlite; sourceTree = "<group>"; };
+		4EBCC5331AA793B500205AAA /* Touch2FlyWithDecision.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Touch2FlyWithDecision.xcdatamodel; sourceTree = "<group>"; };
+		4EBCC5341AA794A900205AAA /* Decision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decision.h; sourceTree = "<group>"; };
+		4EBCC5351AA794A900205AAA /* Decision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision.m; sourceTree = "<group>"; };
+		4EBCC5371AA7DB8800205AAA /* FlightBag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FlightBag.jpeg; sourceTree = "<group>"; };
+		4ED91D901A9A973C00D8E24F /* AC-150-5340-18F Airport lighting.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-150-5340-18F Airport lighting.pdf"; sourceTree = "<group>"; };
+		4ED91D911A9A973C00D8E24F /* AC-91-73B Airport lighting.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-91-73B Airport lighting.pdf"; sourceTree = "<group>"; };
+		4ED91D921A9A973C00D8E24F /* AIM-Chapter 2 Airport lighting.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chapter 2 Airport lighting.pdf"; sourceTree = "<group>"; };
+		4ED91D931A9A973C00D8E24F /* PHOAN-Chapter 13 Airport lighting.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 13 Airport lighting.pdf"; sourceTree = "<group>"; };
+		4ED91D941A9A973C00D8E24F /* SEA-Chapter 3 Airport lighting.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 3 Airport lighting.pdf"; sourceTree = "<group>"; };
+		4ED91D961A9A973C00D8E24F /* AIM-Chapter 4 Radio.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chapter 4 Radio.pdf"; sourceTree = "<group>"; };
+		4ED91D971A9A973C00D8E24F /* PHOAN-Chapter 13 Radio.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 13 Radio.pdf"; sourceTree = "<group>"; };
+		4ED91D991A9A973C00D8E24F /* AC-90-66A Traffic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-90-66A Traffic.pdf"; sourceTree = "<group>"; };
+		4ED91D9A1A9A973C00D8E24F /* AFH-Chapter 7 Traffic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 7 Traffic.pdf"; sourceTree = "<group>"; };
+		4ED91D9B1A9A973C00D8E24F /* AIM-Chapter 4 Traffic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chapter 4 Traffic.pdf"; sourceTree = "<group>"; };
+		4ED91D9C1A9A973C00D8E24F /* PHOAN-Chapter 13 Traffic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 13 Traffic.pdf"; sourceTree = "<group>"; };
+		4ED91D9E1A9A973C00D8E24F /* AC 150-5340-18F Standards for Airport Signs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC 150-5340-18F Standards for Airport Signs.pdf"; sourceTree = "<group>"; };
+		4ED91D9F1A9A973C00D8E24F /* AC 00-6A Aviation Weather.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC 00-6A Aviation Weather.pdf"; sourceTree = "<group>"; };
+		4ED91DA01A9A973C00D8E24F /* AC 61-67C  Stall and Spin Training.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC 61-67C  Stall and Spin Training.pdf"; sourceTree = "<group>"; };
+		4ED91DA11A9A973C00D8E24F /* AC 91-73B Taxi Operations.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC 91-73B Taxi Operations.pdf"; sourceTree = "<group>"; };
+		4ED91DA21A9A973C00D8E24F /* AC-00-45G Aviation Weather Services.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-00-45G Aviation Weather Services.pdf"; sourceTree = "<group>"; };
+		4ED91DA31A9A973C00D8E24F /* AC 61-84B Role of Preflight Preparation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC 61-84B Role of Preflight Preparation.pdf"; sourceTree = "<group>"; };
+		4ED91DA41A9A973C00D8E24F /* AC 90-66A Standard Traffic Patterns at Uncontrolled Airports.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC 90-66A Standard Traffic Patterns at Uncontrolled Airports.pdf"; sourceTree = "<group>"; };
+		4ED91DA51A9A973C00D8E24F /* AC 91-13C Cold Weather Operations.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC 91-13C Cold Weather Operations.pdf"; sourceTree = "<group>"; };
+		4ED91DA61A9A973C00D8E24F /* AC 91-55 Reduction of Electrical Failures.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC 91-55 Reduction of Electrical Failures.pdf"; sourceTree = "<group>"; };
+		4ED91DA81A9A973C00D8E24F /* Coast Guard Navigation Rules and Regulations Handbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Coast Guard Navigation Rules and Regulations Handbook.pdf"; sourceTree = "<group>"; };
+		4ED91DA91A9A973C00D8E24F /* errata_sheet_150_5340_18f.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = errata_sheet_150_5340_18f.pdf; sourceTree = "<group>"; };
+		4ED91DAA1A9A973C00D8E24F /* Instrument Flying Handbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Instrument Flying Handbook.pdf"; sourceTree = "<group>"; };
+		4ED91DAB1A9A973C00D8E24F /* Aircraft Weight and Balance Handbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Aircraft Weight and Balance Handbook.pdf"; sourceTree = "<group>"; };
+		4ED91DAD1A9A973C00D8E24F /* Airplane Flying Handbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Airplane Flying Handbook.pdf"; sourceTree = "<group>"; };
+		4ED91DAE1A9A973C00D8E24F /* Advanced Avionics Handbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Advanced Avionics Handbook.pdf"; sourceTree = "<group>"; };
+		4ED91DB11A9A973C00D8E24F /* AFH-Chapter 16 const climbs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 16 const climbs.pdf"; sourceTree = "<group>"; };
+		4ED91DB21A9A973C00D8E24F /* IFH-Chapter 4 and 5 const climbs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IFH-Chapter 4 and 5 const climbs.pdf"; sourceTree = "<group>"; };
+		4ED91DB41A9A973C00D8E24F /* AFH-Chapter 16 const descent.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 16 const descent.pdf"; sourceTree = "<group>"; };
+		4ED91DB51A9A973C00D8E24F /* IFH-Chapter 4 and 5 const descent.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IFH-Chapter 4 and 5 const descent.pdf"; sourceTree = "<group>"; };
+		4ED91DB71A9A973C00D8E24F /* AFH-Chapter 10 inst services.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 10 inst services.pdf"; sourceTree = "<group>"; };
+		4ED91DB81A9A973C00D8E24F /* IFH-Chapter 7 inst services.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IFH-Chapter 7 inst services.pdf"; sourceTree = "<group>"; };
+		4ED91DB91A9A973C00D8E24F /* PHOAN-Chapter 15 inst services.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 15 inst services.pdf"; sourceTree = "<group>"; };
+		4ED91DBB1A9A973C00D8E24F /* AFH-Chapter 16 unusual attitude.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 16 unusual attitude.pdf"; sourceTree = "<group>"; };
+		4ED91DBC1A9A973C00D8E24F /* IFH-Chapter 4 and 5 unusual attitude.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IFH-Chapter 4 and 5 unusual attitude.pdf"; sourceTree = "<group>"; };
+		4ED91DBE1A9A973C00D8E24F /* AFH-Chapter 16 straight and level.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 16 straight and level.pdf"; sourceTree = "<group>"; };
+		4ED91DBF1A9A973C00D8E24F /* IFH-Chapter 4 and 5 straight and level.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IFH-Chapter 4 and 5 straight and level.pdf"; sourceTree = "<group>"; };
+		4ED91DC11A9A973C00D8E24F /* AFH-Chapter 16 turns heading.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 16 turns heading.pdf"; sourceTree = "<group>"; };
+		4ED91DC21A9A973C00D8E24F /* IFH-Chapter 4 and 5 turns heading.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "IFH-Chapter 4 and 5 turns heading.pdf"; sourceTree = "<group>"; };
+		4ED91DC51A9A973C00D8E24F /* AFH-Chapter 16 emrg ldg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 16 emrg ldg.pdf"; sourceTree = "<group>"; };
+		4ED91DC71A9A973C00D8E24F /* AFH-Chapter 16 emrg descent.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 16 emrg descent.pdf"; sourceTree = "<group>"; };
+		4ED91DC91A9A973C00D8E24F /* AFH-Chapter 16 survival gear.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 16 survival gear.pdf"; sourceTree = "<group>"; };
+		4ED91DCB1A9A973C00D8E24F /* AFH-Chapter 16 malfunction.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 16 malfunction.pdf"; sourceTree = "<group>"; };
+		4ED91DCE1A9A973C00D8E24F /* AFH-Chapter 6 Rec Course.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 6 Rec Course.pdf"; sourceTree = "<group>"; };
+		4ED91DD01A9A973C00D8E24F /* AFH-Chapter 6 STurns.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 6 STurns.pdf"; sourceTree = "<group>"; };
+		4ED91DD21A9A973C00D8E24F /* AFH-Chapter 6 Turns Point.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 6 Turns Point.pdf"; sourceTree = "<group>"; };
+		4ED91DD51A9A973C00D8E24F /* AIM-Table Of Contents diversion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Table Of Contents diversion.pdf"; sourceTree = "<group>"; };
+		4ED91DD61A9A973C00D8E24F /* PHOAN-Chapter 15 diversion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 15 diversion.pdf"; sourceTree = "<group>"; };
+		4ED91DD81A9A973C00D8E24F /* AIM-Chapter 6 Lost.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chapter 6 Lost.pdf"; sourceTree = "<group>"; };
+		4ED91DD91A9A973C00D8E24F /* PHOAN-Chapter 15 Lost.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 15 Lost.pdf"; sourceTree = "<group>"; };
+		4ED91DDB1A9A973C00D8E24F /* AAH-All navigation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AAH-All navigation.pdf"; sourceTree = "<group>"; };
+		4ED91DDC1A9A973C00D8E24F /* AFH-Chapter 10 navigation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 10 navigation.pdf"; sourceTree = "<group>"; };
+		4ED91DDD1A9A973C00D8E24F /* AIM-Chapter 1 navigation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chapter 1 navigation.pdf"; sourceTree = "<group>"; };
+		4ED91DDE1A9A973C00D8E24F /* PHOAN-Chapter 15 navigation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 15 navigation.pdf"; sourceTree = "<group>"; };
+		4ED91DE01A9A973C00D8E24F /* PHOAN-Chapter 15 Pilotage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 15 Pilotage.pdf"; sourceTree = "<group>"; };
+		4ED91DE31A9A973C00D8E24F /* AFH-Chapter 10 night.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 10 night.pdf"; sourceTree = "<group>"; };
+		4ED91DE41A9A973C00D8E24F /* AIM-Chapter 2 night.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chapter 2 night.pdf"; sourceTree = "<group>"; };
+		4ED91DE51A9A973C00D8E24F /* PHOAN-Chapter 16 night.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 16 night.pdf"; sourceTree = "<group>"; };
+		4ED91DE81A9A973C00D8E24F /* 3-SteepTurns.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3-SteepTurns.pdf"; sourceTree = "<group>"; };
+		4ED91DEB1A9A973C00D8E24F /* AFH-Chapter 2 after ldg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 2 after ldg.pdf"; sourceTree = "<group>"; };
+		4ED91DF11A9A973C00D8E24F /* AIM-Chapter 8 Aeromadical.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chapter 8 Aeromadical.pdf"; sourceTree = "<group>"; };
+		4ED91DF21A9A973C00D8E24F /* PHOAN-Chapter 16 aeromedical.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 16 aeromedical.pdf"; sourceTree = "<group>"; };
+		4ED91DF41A9A973C00D8E24F /* PHOAN-Chapter 8 airworthy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 8 airworthy.pdf"; sourceTree = "<group>"; };
+		4ED91DF61A9A973C00D8E24F /* AFH-Chapter 2 certs and docs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 2 certs and docs.pdf"; sourceTree = "<group>"; };
+		4ED91DF71A9A973C00D8E24F /* PHOAN-Chapter 1 and 8 certs and docs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 1 and 8 certs and docs.pdf"; sourceTree = "<group>"; };
+		4ED91DF81A9A973C00D8E24F /* SEAPlane-Chapter 1 certs and docs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEAPlane-Chapter 1 certs and docs.pdf"; sourceTree = "<group>"; };
+		4ED91DFA1A9A973C00D8E24F /* AC-61-84 cross country.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-61-84 cross country.pdf"; sourceTree = "<group>"; };
+		4ED91DFB1A9A973C00D8E24F /* AIM Chapter 9 cross country.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM Chapter 9 cross country.pdf"; sourceTree = "<group>"; };
+		4ED91DFC1A9A973C00D8E24F /* PHOAN Chapter 10 and 15 cross country.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN Chapter 10 and 15 cross country.pdf"; sourceTree = "<group>"; };
+		4ED91DFE1A9A973C00D8E24F /* AIM-Chapter 3 airspace.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chapter 3 airspace.pdf"; sourceTree = "<group>"; };
+		4ED91DFF1A9A973C00D8E24F /* PHOAN-Chapter 14 airspace.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 14 airspace.pdf"; sourceTree = "<group>"; };
+		4ED91E011A9A973C00D8E24F /* PHOAN-Chapter 2,5,6,7 system.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 2,5,6,7 system.pdf"; sourceTree = "<group>"; };
+		4ED91E021A9A973C00D8E24F /* SEA-Chapter 7 system.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 7 system.pdf"; sourceTree = "<group>"; };
+		4ED91E041A9A973C00D8E24F /* AC-61-84 performance.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-61-84 performance.pdf"; sourceTree = "<group>"; };
+		4ED91E051A9A973C00D8E24F /* PHOAN-Chapter 4 and 10 performance.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 4 and 10 performance.pdf"; sourceTree = "<group>"; };
+		4ED91E061A9A973C00D8E24F /* WBH-Chapter 1 performance.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "WBH-Chapter 1 performance.pdf"; sourceTree = "<group>"; };
+		4ED91E081A9A973C00D8E24F /* AIM-Chapter 2 sea base.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chapter 2 sea base.pdf"; sourceTree = "<group>"; };
+		4ED91E091A9A973C00D8E24F /* Coast Guard Rules sea base.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Coast Guard Rules sea base.pdf"; sourceTree = "<group>"; };
+		4ED91E0A1A9A973C00D8E24F /* SEA-Chpater 1 and 3 sea base.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chpater 1 and 3 sea base.pdf"; sourceTree = "<group>"; };
+		4ED91E0C1A9A973C00D8E24F /* SEA-Chapter 3 characteristics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 3 characteristics.pdf"; sourceTree = "<group>"; };
+		4ED91E0E1A9A973C00D8E24F /* AC 00-6A weather.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC 00-6A weather.pdf"; sourceTree = "<group>"; };
+		4ED91E0F1A9A973C00D8E24F /* AC-00-45 weather.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-00-45 weather.pdf"; sourceTree = "<group>"; };
+		4ED91E101A9A973C00D8E24F /* AC-61-84 weather.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-61-84 weather.pdf"; sourceTree = "<group>"; };
+		4ED91E111A9A973C00D8E24F /* PHOAN-Chapter 11 and 12 Weather.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 11 and 12 Weather.pdf"; sourceTree = "<group>"; };
+		4ED91E141A9A973C00D8E24F /* AFH-Chapter 2 before takeoff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 2 before takeoff.pdf"; sourceTree = "<group>"; };
+		4ED91E151A9A973C00D8E24F /* SEA-Chapter 4 before takeoff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 4 before takeoff.pdf"; sourceTree = "<group>"; };
+		4ED91E171A9A973C00D8E24F /* AFH-Chapter 2 cockpit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 2 cockpit.pdf"; sourceTree = "<group>"; };
+		4ED91E191A9A973C00D8E24F /* AC-91-13C Engine start.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-91-13C Engine start.pdf"; sourceTree = "<group>"; };
+		4ED91E1A1A9A973C00D8E24F /* AC-91-55 Engine start.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-91-55 Engine start.pdf"; sourceTree = "<group>"; };
+		4ED91E1B1A9A973C00D8E24F /* AFH-Chapter 2 Engine start.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 2 Engine start.pdf"; sourceTree = "<group>"; };
+		4ED91E1C1A9A973C00D8E24F /* PHOAN-Chpater 6 Engine Start.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chpater 6 Engine Start.pdf"; sourceTree = "<group>"; };
+		4ED91E1D1A9A973C00D8E24F /* SEA-Chapter 4 Engine Start.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 4 Engine Start.pdf"; sourceTree = "<group>"; };
+		4ED91E1F1A9A973C00D8E24F /* AFH-Chapter 2 p inspection.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 2 p inspection.pdf"; sourceTree = "<group>"; };
+		4ED91E201A9A973C00D8E24F /* AIM-Chpater 5 sec 1 p inspection.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chpater 5 sec 1 p inspection.pdf"; sourceTree = "<group>"; };
+		4ED91E211A9A973C00D8E24F /* SEA-Chapter 4 p inspection.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 4 p inspection.pdf"; sourceTree = "<group>"; };
+		4ED91E231A9A973C00D8E24F /* AC 91-73B incursion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC 91-73B incursion.pdf"; sourceTree = "<group>"; };
+		4ED91E241A9A973C00D8E24F /* AC-150-5340-18F incursion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-150-5340-18F incursion.pdf"; sourceTree = "<group>"; };
+		4ED91E251A9A973C00D8E24F /* AFH-Chapter 1 incursion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 1 incursion.pdf"; sourceTree = "<group>"; };
+		4ED91E261A9A973C00D8E24F /* AIM-Chapter 7 incursion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chapter 7 incursion.pdf"; sourceTree = "<group>"; };
+		4ED91E271A9A973C00D8E24F /* PHOAN-Chapter13 incursion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter13 incursion.pdf"; sourceTree = "<group>"; };
+		4ED91E291A9A973C00D8E24F /* Coast Guard Rules T and S.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Coast Guard Rules T and S.pdf"; sourceTree = "<group>"; };
+		4ED91E2A1A9A973C00D8E24F /* SEA-Chapter 4 Tand S.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 4 Tand S.pdf"; sourceTree = "<group>"; };
+		4ED91E2C1A9A973C00D8E24F /* AFH-Chapter 2 Taxiing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 2 Taxiing.pdf"; sourceTree = "<group>"; };
+		4ED91E2F1A9A973C00D8E24F /* AC-61-67C maneuvering slow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-61-67C maneuvering slow.pdf"; sourceTree = "<group>"; };
+		4ED91E301A9A973C00D8E24F /* PHOAN-Chapter 4 maneuvering slow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 4 maneuvering slow.pdf"; sourceTree = "<group>"; };
+		4ED91E321A9A973C00D8E24F /* AC-61-67C off stalls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-61-67C off stalls.pdf"; sourceTree = "<group>"; };
+		4ED91E331A9A973C00D8E24F /* PHOAN-Chapter 4 off stalls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 4 off stalls.pdf"; sourceTree = "<group>"; };
+		4ED91E351A9A973C00D8E24F /* AC-61-67C on stalls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-61-67C on stalls.pdf"; sourceTree = "<group>"; };
+		4ED91E361A9A973C00D8E24F /* PHOAN-Chapter 4 on stalls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 4 on stalls.pdf"; sourceTree = "<group>"; };
+		4ED91E381A9A973C00D8E24F /* AC-61-67C spin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-61-67C spin.pdf"; sourceTree = "<group>"; };
+		4ED91E391A9A973C00D8E24F /* PHOAN-Chapter 4 spin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHOAN-Chapter 4 spin.pdf"; sourceTree = "<group>"; };
+		4ED91E3C1A9A973C00D8E24F /* AFH-Chapter 8 Slip.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 8 Slip.pdf"; sourceTree = "<group>"; };
+		4ED91E3E1A9A973C00D8E24F /* SEA-Chapter 6 Glassy Ldg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 6 Glassy Ldg.pdf"; sourceTree = "<group>"; };
+		4ED91E401A9A973C00D8E24F /* SEA-Chapter 4 Glassy TO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 4 Glassy TO.pdf"; sourceTree = "<group>"; };
+		4ED91E421A9A973C00D8E24F /* AFH-Chapter 8 GoAround.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 8 GoAround.pdf"; sourceTree = "<group>"; };
+		4ED91E431A9A973C00D8E24F /* SEA-Chapter 6 GoAround.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 6 GoAround.pdf"; sourceTree = "<group>"; };
+		4ED91E451A9A973C00D8E24F /* AFH-Chapter 8 Normal Takeoff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 8 Normal Takeoff.pdf"; sourceTree = "<group>"; };
+		4ED91E461A9A973C00D8E24F /* SEA-Chapter 6 Normal Takeoff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 6 Normal Takeoff.pdf"; sourceTree = "<group>"; };
+		4ED91E481A9A973C00D8E24F /* AFH-Chapter 5 Normal Takeoff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 5 Normal Takeoff.pdf"; sourceTree = "<group>"; };
+		4ED91E491A9A973C00D8E24F /* SEA-Chapter 4 Normal takeoff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 4 Normal takeoff.pdf"; sourceTree = "<group>"; };
+		4ED91E4B1A9A973C00D8E24F /* SEA-Chapter 6 Rough Ldg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 6 Rough Ldg.pdf"; sourceTree = "<group>"; };
+		4ED91E4D1A9A973C00D8E24F /* SEA Chapter 6 Rough TO.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA Chapter 6 Rough TO.pdf"; sourceTree = "<group>"; };
+		4ED91E4F1A9A973C00D8E24F /* AFH-Chapter 8 Short Landing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 8 Short Landing.pdf"; sourceTree = "<group>"; };
+		4ED91E501A9A973C00D8E24F /* SEA-Chapter 6 Short Landing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 6 Short Landing.pdf"; sourceTree = "<group>"; };
+		4ED91E521A9A973C00D8E24F /* AFH-Chapter 5 Short Takeoff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 5 Short Takeoff.pdf"; sourceTree = "<group>"; };
+		4ED91E531A9A973C00D8E24F /* SEA-Chapter 4 Short Takeoff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 4 Short Takeoff.pdf"; sourceTree = "<group>"; };
+		4ED91E551A9A973C00D8E24F /* AFH-Chapter 8 Soft Landing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 8 Soft Landing.pdf"; sourceTree = "<group>"; };
+		4ED91E571A9A973C00D8E24F /* AFH-Chapter 5 Soft Takeoff.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AFH-Chapter 5 Soft Takeoff.pdf"; sourceTree = "<group>"; };
+		4EDBE7121A8A755900274F23 /* AOOViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOOViewControllerProtocol.h; sourceTree = "<group>"; };
+		4EDBE7131A8AA8BA00274F23 /* TaskCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCellController.h; sourceTree = "<group>"; };
+		4EDBE7141A8AA8BA00274F23 /* TaskCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCellController.m; sourceTree = "<group>"; };
+		4EDBE7151A8AA8BA00274F23 /* TaskCellController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskCellController.xib; sourceTree = "<group>"; };
+		4EEF04871AA4FA2600F5DA72 /* SEA-Chapter 6 emrg ldg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA-Chapter 6 emrg ldg.pdf"; sourceTree = "<group>"; };
+		4EEF04891AA4FA3A00F5DA72 /* SEA Chapter 6 after ldg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA Chapter 6 after ldg.pdf"; sourceTree = "<group>"; };
+		4EEF048B1AA4FA4500F5DA72 /* SEA Chapter 6 anchoring.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA Chapter 6 anchoring.pdf"; sourceTree = "<group>"; };
+		4EEF048D1AA4FA4D00F5DA72 /* SEA Chapter 6 dock moor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA Chapter 6 dock moor.pdf"; sourceTree = "<group>"; };
+		4EEF048F1AA4FA5500F5DA72 /* SEA Chapter 6 ramp beach.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SEA Chapter 6 ramp beach.pdf"; sourceTree = "<group>"; };
+		4EEF04911AA50C0500F5DA72 /* MoreStuffTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreStuffTableViewController.h; sourceTree = "<group>"; };
+		4EEF04921AA50C0500F5DA72 /* MoreStuffTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreStuffTableViewController.m; sourceTree = "<group>"; };
+		4EEF04941AA51C0E00F5DA72 /* SettingsAndProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsAndProgressViewController.h; sourceTree = "<group>"; };
+		4EEF04951AA51C0E00F5DA72 /* SettingsAndProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsAndProgressViewController.m; sourceTree = "<group>"; };
+		4EEF04971AA51C3700F5DA72 /* FullDocumentListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullDocumentListViewController.h; sourceTree = "<group>"; };
+		4EEF04981AA51C3700F5DA72 /* FullDocumentListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullDocumentListViewController.m; sourceTree = "<group>"; };
+		4EEF049A1AA53C7200F5DA72 /* GlobalDecisions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDecisions.h; sourceTree = "<group>"; };
+		4EEF049B1AA53C7200F5DA72 /* GlobalDecisions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalDecisions.m; sourceTree = "<group>"; };
+		4EFF76081A87F0F1001439BC /* Touch2Fly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touch2Fly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFF760C1A87F0F1001439BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFF760D1A87F0F1001439BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EFF760F1A87F0F1001439BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EFF76101A87F0F1001439BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EFF76131A87F0F1001439BC /* Touch2Fly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Touch2Fly.xcdatamodel; sourceTree = "<group>"; };
+		4EFF76151A87F0F1001439BC /* AOOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOOViewController.h; sourceTree = "<group>"; };
+		4EFF76161A87F0F1001439BC /* AOOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOOViewController.m; sourceTree = "<group>"; };
+		4EFF76191A87F0F1001439BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EFF761B1A87F0F1001439BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EFF761E1A87F0F1001439BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4EFF76241A87F0F1001439BC /* Touch2FlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Touch2FlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFF76291A87F0F1001439BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFF762A1A87F0F1001439BC /* Touch2FlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Touch2FlyTests.m; sourceTree = "<group>"; };
+		4EFF76381A87F579001439BC /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
+		4EFF76391A87F579001439BC /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
+		4EFF763C1A87F5FD001439BC /* TaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailViewController.h; sourceTree = "<group>"; };
+		4EFF763D1A87F5FD001439BC /* TaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailViewController.m; sourceTree = "<group>"; };
+		4EFF76431A892041001439BC /* AOOCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOOCellController.h; sourceTree = "<group>"; };
+		4EFF76441A892041001439BC /* AOOCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOOCellController.m; sourceTree = "<group>"; };
+		4EFF76451A892041001439BC /* AOOCellController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AOOCellController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EFF76051A87F0F1001439BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFF76211A87F0F1001439BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E75C8451A8BD40700C0E470 /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91D8E1A9A973C00D8E24F /* Airport and Seaplane Base Operations */,
+				4ED91D9D1A9A973C00D8E24F /* All UnCut */,
+				4ED91DAF1A9A973C00D8E24F /* Basic Instrument Maneuvers */,
+				4ED91DC31A9A973C00D8E24F /* Emergency Operations */,
+				4ED91DCC1A9A973C00D8E24F /* Ground Reference Maneuver */,
+				4ED91DD31A9A973C00D8E24F /* Navigation */,
+				4ED91DE11A9A973C00D8E24F /* Night Operations */,
+				4ED91DE61A9A973C00D8E24F /* Peformance Maneuver */,
+				4ED91DE91A9A973C00D8E24F /* Postflight Procedures */,
+				4ED91DEF1A9A973C00D8E24F /* Preflight Preperation */,
+				4ED91E121A9A973C00D8E24F /* Preflight Procedures */,
+				4ED91E2D1A9A973C00D8E24F /* Slow Flight and Stalls */,
+				4ED91E3A1A9A973C00D8E24F /* Takeoffs, Landings, Go-Arounds */,
+			);
+			name = PDFs;
+			sourceTree = "<group>";
+		};
+		4ED91D8E1A9A973C00D8E24F /* Airport and Seaplane Base Operations */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91D8F1A9A973C00D8E24F /* Airport and seaplane base taxiway signs markings and lighting  */,
+				4ED91D951A9A973C00D8E24F /* Radio Communication and Light signals  */,
+				4ED91D981A9A973C00D8E24F /* Traffic patterns */,
+			);
+			path = "Airport and Seaplane Base Operations";
+			sourceTree = "<group>";
+		};
+		4ED91D8F1A9A973C00D8E24F /* Airport and seaplane base taxiway signs markings and lighting  */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91D901A9A973C00D8E24F /* AC-150-5340-18F Airport lighting.pdf */,
+				4ED91D911A9A973C00D8E24F /* AC-91-73B Airport lighting.pdf */,
+				4ED91D921A9A973C00D8E24F /* AIM-Chapter 2 Airport lighting.pdf */,
+				4ED91D931A9A973C00D8E24F /* PHOAN-Chapter 13 Airport lighting.pdf */,
+				4ED91D941A9A973C00D8E24F /* SEA-Chapter 3 Airport lighting.pdf */,
+			);
+			path = "Airport and seaplane base taxiway signs markings and lighting ";
+			sourceTree = "<group>";
+		};
+		4ED91D951A9A973C00D8E24F /* Radio Communication and Light signals  */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91D961A9A973C00D8E24F /* AIM-Chapter 4 Radio.pdf */,
+				4ED91D971A9A973C00D8E24F /* PHOAN-Chapter 13 Radio.pdf */,
+			);
+			path = "Radio Communication and Light signals ";
+			sourceTree = "<group>";
+		};
+		4ED91D981A9A973C00D8E24F /* Traffic patterns */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91D991A9A973C00D8E24F /* AC-90-66A Traffic.pdf */,
+				4ED91D9A1A9A973C00D8E24F /* AFH-Chapter 7 Traffic.pdf */,
+				4ED91D9B1A9A973C00D8E24F /* AIM-Chapter 4 Traffic.pdf */,
+				4ED91D9C1A9A973C00D8E24F /* PHOAN-Chapter 13 Traffic.pdf */,
+			);
+			path = "Traffic patterns";
+			sourceTree = "<group>";
+		};
+		4ED91D9D1A9A973C00D8E24F /* All UnCut */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91D9E1A9A973C00D8E24F /* AC 150-5340-18F Standards for Airport Signs.pdf */,
+				4ED91D9F1A9A973C00D8E24F /* AC 00-6A Aviation Weather.pdf */,
+				4ED91DA01A9A973C00D8E24F /* AC 61-67C  Stall and Spin Training.pdf */,
+				4ED91DA11A9A973C00D8E24F /* AC 91-73B Taxi Operations.pdf */,
+				4ED91DA21A9A973C00D8E24F /* AC-00-45G Aviation Weather Services.pdf */,
+				4ED91DA31A9A973C00D8E24F /* AC 61-84B Role of Preflight Preparation.pdf */,
+				4ED91DA41A9A973C00D8E24F /* AC 90-66A Standard Traffic Patterns at Uncontrolled Airports.pdf */,
+				4ED91DA51A9A973C00D8E24F /* AC 91-13C Cold Weather Operations.pdf */,
+				4ED91DA61A9A973C00D8E24F /* AC 91-55 Reduction of Electrical Failures.pdf */,
+				4ED91DA81A9A973C00D8E24F /* Coast Guard Navigation Rules and Regulations Handbook.pdf */,
+				4ED91DA91A9A973C00D8E24F /* errata_sheet_150_5340_18f.pdf */,
+				4ED91DAA1A9A973C00D8E24F /* Instrument Flying Handbook.pdf */,
+				4ED91DAB1A9A973C00D8E24F /* Aircraft Weight and Balance Handbook.pdf */,
+				4ED91DAD1A9A973C00D8E24F /* Airplane Flying Handbook.pdf */,
+				4ED91DAE1A9A973C00D8E24F /* Advanced Avionics Handbook.pdf */,
+			);
+			path = "All UnCut";
+			sourceTree = "<group>";
+		};
+		4ED91DAF1A9A973C00D8E24F /* Basic Instrument Maneuvers */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DB01A9A973C00D8E24F /* Constant airspeed climbs */,
+				4ED91DB31A9A973C00D8E24F /* Constant Airspeed Descents */,
+				4ED91DB61A9A973C00D8E24F /* Radio communication Navigation Facilities and radar services */,
+				4ED91DBA1A9A973C00D8E24F /* Recovery From unusual flight attitudes */,
+				4ED91DBD1A9A973C00D8E24F /* Straight and Level flight */,
+				4ED91DC01A9A973C00D8E24F /* Turns to a Heading */,
+			);
+			path = "Basic Instrument Maneuvers";
+			sourceTree = "<group>";
+		};
+		4ED91DB01A9A973C00D8E24F /* Constant airspeed climbs */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DB11A9A973C00D8E24F /* AFH-Chapter 16 const climbs.pdf */,
+				4ED91DB21A9A973C00D8E24F /* IFH-Chapter 4 and 5 const climbs.pdf */,
+			);
+			path = "Constant airspeed climbs";
+			sourceTree = "<group>";
+		};
+		4ED91DB31A9A973C00D8E24F /* Constant Airspeed Descents */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DB41A9A973C00D8E24F /* AFH-Chapter 16 const descent.pdf */,
+				4ED91DB51A9A973C00D8E24F /* IFH-Chapter 4 and 5 const descent.pdf */,
+			);
+			path = "Constant Airspeed Descents";
+			sourceTree = "<group>";
+		};
+		4ED91DB61A9A973C00D8E24F /* Radio communication Navigation Facilities and radar services */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DB71A9A973C00D8E24F /* AFH-Chapter 10 inst services.pdf */,
+				4ED91DB81A9A973C00D8E24F /* IFH-Chapter 7 inst services.pdf */,
+				4ED91DB91A9A973C00D8E24F /* PHOAN-Chapter 15 inst services.pdf */,
+			);
+			path = "Radio communication Navigation Facilities and radar services";
+			sourceTree = "<group>";
+		};
+		4ED91DBA1A9A973C00D8E24F /* Recovery From unusual flight attitudes */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DBB1A9A973C00D8E24F /* AFH-Chapter 16 unusual attitude.pdf */,
+				4ED91DBC1A9A973C00D8E24F /* IFH-Chapter 4 and 5 unusual attitude.pdf */,
+			);
+			path = "Recovery From unusual flight attitudes";
+			sourceTree = "<group>";
+		};
+		4ED91DBD1A9A973C00D8E24F /* Straight and Level flight */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DBE1A9A973C00D8E24F /* AFH-Chapter 16 straight and level.pdf */,
+				4ED91DBF1A9A973C00D8E24F /* IFH-Chapter 4 and 5 straight and level.pdf */,
+			);
+			path = "Straight and Level flight";
+			sourceTree = "<group>";
+		};
+		4ED91DC01A9A973C00D8E24F /* Turns to a Heading */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DC11A9A973C00D8E24F /* AFH-Chapter 16 turns heading.pdf */,
+				4ED91DC21A9A973C00D8E24F /* IFH-Chapter 4 and 5 turns heading.pdf */,
+			);
+			path = "Turns to a Heading";
+			sourceTree = "<group>";
+		};
+		4ED91DC31A9A973C00D8E24F /* Emergency Operations */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DC41A9A973C00D8E24F /* Emergency Approach and Landing */,
+				4ED91DC61A9A973C00D8E24F /* Emergency Descent */,
+				4ED91DC81A9A973C00D8E24F /* Emergency Equipment and Survivl Gear */,
+				4ED91DCA1A9A973C00D8E24F /* System and Equipment Malfunction */,
+			);
+			path = "Emergency Operations";
+			sourceTree = "<group>";
+		};
+		4ED91DC41A9A973C00D8E24F /* Emergency Approach and Landing */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF04871AA4FA2600F5DA72 /* SEA-Chapter 6 emrg ldg.pdf */,
+				4ED91DC51A9A973C00D8E24F /* AFH-Chapter 16 emrg ldg.pdf */,
+			);
+			path = "Emergency Approach and Landing";
+			sourceTree = "<group>";
+		};
+		4ED91DC61A9A973C00D8E24F /* Emergency Descent */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DC71A9A973C00D8E24F /* AFH-Chapter 16 emrg descent.pdf */,
+			);
+			path = "Emergency Descent";
+			sourceTree = "<group>";
+		};
+		4ED91DC81A9A973C00D8E24F /* Emergency Equipment and Survivl Gear */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DC91A9A973C00D8E24F /* AFH-Chapter 16 survival gear.pdf */,
+			);
+			path = "Emergency Equipment and Survivl Gear";
+			sourceTree = "<group>";
+		};
+		4ED91DCA1A9A973C00D8E24F /* System and Equipment Malfunction */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DCB1A9A973C00D8E24F /* AFH-Chapter 16 malfunction.pdf */,
+			);
+			path = "System and Equipment Malfunction";
+			sourceTree = "<group>";
+		};
+		4ED91DCC1A9A973C00D8E24F /* Ground Reference Maneuver */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DCD1A9A973C00D8E24F /* Rectangular Course */,
+				4ED91DCF1A9A973C00D8E24F /* S-Turns */,
+				4ED91DD11A9A973C00D8E24F /* Turns Around A Point */,
+			);
+			path = "Ground Reference Maneuver";
+			sourceTree = "<group>";
+		};
+		4ED91DCD1A9A973C00D8E24F /* Rectangular Course */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DCE1A9A973C00D8E24F /* AFH-Chapter 6 Rec Course.pdf */,
+			);
+			path = "Rectangular Course";
+			sourceTree = "<group>";
+		};
+		4ED91DCF1A9A973C00D8E24F /* S-Turns */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DD01A9A973C00D8E24F /* AFH-Chapter 6 STurns.pdf */,
+			);
+			path = "S-Turns";
+			sourceTree = "<group>";
+		};
+		4ED91DD11A9A973C00D8E24F /* Turns Around A Point */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DD21A9A973C00D8E24F /* AFH-Chapter 6 Turns Point.pdf */,
+			);
+			path = "Turns Around A Point";
+			sourceTree = "<group>";
+		};
+		4ED91DD31A9A973C00D8E24F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DD41A9A973C00D8E24F /* Diversion */,
+				4ED91DD71A9A973C00D8E24F /* Lost Procedures */,
+				4ED91DDA1A9A973C00D8E24F /* Navigation Systems and Radar Service */,
+				4ED91DDF1A9A973C00D8E24F /* Pilotage and Dead Recogning */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		4ED91DD41A9A973C00D8E24F /* Diversion */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DD51A9A973C00D8E24F /* AIM-Table Of Contents diversion.pdf */,
+				4ED91DD61A9A973C00D8E24F /* PHOAN-Chapter 15 diversion.pdf */,
+			);
+			path = Diversion;
+			sourceTree = "<group>";
+		};
+		4ED91DD71A9A973C00D8E24F /* Lost Procedures */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DD81A9A973C00D8E24F /* AIM-Chapter 6 Lost.pdf */,
+				4ED91DD91A9A973C00D8E24F /* PHOAN-Chapter 15 Lost.pdf */,
+			);
+			path = "Lost Procedures";
+			sourceTree = "<group>";
+		};
+		4ED91DDA1A9A973C00D8E24F /* Navigation Systems and Radar Service */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DDB1A9A973C00D8E24F /* AAH-All navigation.pdf */,
+				4ED91DDC1A9A973C00D8E24F /* AFH-Chapter 10 navigation.pdf */,
+				4ED91DDD1A9A973C00D8E24F /* AIM-Chapter 1 navigation.pdf */,
+				4ED91DDE1A9A973C00D8E24F /* PHOAN-Chapter 15 navigation.pdf */,
+			);
+			path = "Navigation Systems and Radar Service";
+			sourceTree = "<group>";
+		};
+		4ED91DDF1A9A973C00D8E24F /* Pilotage and Dead Recogning */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DE01A9A973C00D8E24F /* PHOAN-Chapter 15 Pilotage.pdf */,
+			);
+			path = "Pilotage and Dead Recogning";
+			sourceTree = "<group>";
+		};
+		4ED91DE11A9A973C00D8E24F /* Night Operations */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DE21A9A973C00D8E24F /* Night Preperation */,
+			);
+			path = "Night Operations";
+			sourceTree = "<group>";
+		};
+		4ED91DE21A9A973C00D8E24F /* Night Preperation */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DE31A9A973C00D8E24F /* AFH-Chapter 10 night.pdf */,
+				4ED91DE41A9A973C00D8E24F /* AIM-Chapter 2 night.pdf */,
+				4ED91DE51A9A973C00D8E24F /* PHOAN-Chapter 16 night.pdf */,
+			);
+			path = "Night Preperation";
+			sourceTree = "<group>";
+		};
+		4ED91DE61A9A973C00D8E24F /* Peformance Maneuver */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DE71A9A973C00D8E24F /* Steep Turns  */,
+			);
+			path = "Peformance Maneuver";
+			sourceTree = "<group>";
+		};
+		4ED91DE71A9A973C00D8E24F /* Steep Turns  */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DE81A9A973C00D8E24F /* 3-SteepTurns.pdf */,
+			);
+			path = "Steep Turns ";
+			sourceTree = "<group>";
+		};
+		4ED91DE91A9A973C00D8E24F /* Postflight Procedures */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DEA1A9A973C00D8E24F /* After landing parking and securing */,
+				4ED91DEC1A9A973C00D8E24F /* Anchoring */,
+				4ED91DED1A9A973C00D8E24F /* Docking and Mooring */,
+				4ED91DEE1A9A973C00D8E24F /* Ramping Beaching */,
+			);
+			path = "Postflight Procedures";
+			sourceTree = "<group>";
+		};
+		4ED91DEA1A9A973C00D8E24F /* After landing parking and securing */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF04891AA4FA3A00F5DA72 /* SEA Chapter 6 after ldg.pdf */,
+				4ED91DEB1A9A973C00D8E24F /* AFH-Chapter 2 after ldg.pdf */,
+			);
+			path = "After landing parking and securing";
+			sourceTree = "<group>";
+		};
+		4ED91DEC1A9A973C00D8E24F /* Anchoring */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF048B1AA4FA4500F5DA72 /* SEA Chapter 6 anchoring.pdf */,
+			);
+			path = Anchoring;
+			sourceTree = "<group>";
+		};
+		4ED91DED1A9A973C00D8E24F /* Docking and Mooring */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF048D1AA4FA4D00F5DA72 /* SEA Chapter 6 dock moor.pdf */,
+			);
+			path = "Docking and Mooring";
+			sourceTree = "<group>";
+		};
+		4ED91DEE1A9A973C00D8E24F /* Ramping Beaching */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF048F1AA4FA5500F5DA72 /* SEA Chapter 6 ramp beach.pdf */,
+			);
+			path = "Ramping Beaching";
+			sourceTree = "<group>";
+		};
+		4ED91DEF1A9A973C00D8E24F /* Preflight Preperation */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DF01A9A973C00D8E24F /* Aeromedical Factors  */,
+				4ED91DF31A9A973C00D8E24F /* Airworthyness Requitements */,
+				4ED91DF51A9A973C00D8E24F /* Certificates And Documents */,
+				4ED91DF91A9A973C00D8E24F /* Cross Country flight planning */,
+				4ED91DFD1A9A973C00D8E24F /* National Airspace System */,
+				4ED91E001A9A973C00D8E24F /* Operation of Systems */,
+				4ED91E031A9A973C00D8E24F /* Performance and limitations */,
+				4ED91E071A9A973C00D8E24F /* SeaplaneBase rules and maritime aids to navigation  */,
+				4ED91E0B1A9A973C00D8E24F /* Water and Seaplane CHaracteristics */,
+				4ED91E0D1A9A973C00D8E24F /* Weather Information */,
+			);
+			path = "Preflight Preperation";
+			sourceTree = "<group>";
+		};
+		4ED91DF01A9A973C00D8E24F /* Aeromedical Factors  */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DF11A9A973C00D8E24F /* AIM-Chapter 8 Aeromadical.pdf */,
+				4ED91DF21A9A973C00D8E24F /* PHOAN-Chapter 16 aeromedical.pdf */,
+			);
+			path = "Aeromedical Factors ";
+			sourceTree = "<group>";
+		};
+		4ED91DF31A9A973C00D8E24F /* Airworthyness Requitements */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DF41A9A973C00D8E24F /* PHOAN-Chapter 8 airworthy.pdf */,
+			);
+			path = "Airworthyness Requitements";
+			sourceTree = "<group>";
+		};
+		4ED91DF51A9A973C00D8E24F /* Certificates And Documents */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DF61A9A973C00D8E24F /* AFH-Chapter 2 certs and docs.pdf */,
+				4ED91DF71A9A973C00D8E24F /* PHOAN-Chapter 1 and 8 certs and docs.pdf */,
+				4ED91DF81A9A973C00D8E24F /* SEAPlane-Chapter 1 certs and docs.pdf */,
+			);
+			path = "Certificates And Documents";
+			sourceTree = "<group>";
+		};
+		4ED91DF91A9A973C00D8E24F /* Cross Country flight planning */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DFA1A9A973C00D8E24F /* AC-61-84 cross country.pdf */,
+				4ED91DFB1A9A973C00D8E24F /* AIM Chapter 9 cross country.pdf */,
+				4ED91DFC1A9A973C00D8E24F /* PHOAN Chapter 10 and 15 cross country.pdf */,
+			);
+			path = "Cross Country flight planning";
+			sourceTree = "<group>";
+		};
+		4ED91DFD1A9A973C00D8E24F /* National Airspace System */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91DFE1A9A973C00D8E24F /* AIM-Chapter 3 airspace.pdf */,
+				4ED91DFF1A9A973C00D8E24F /* PHOAN-Chapter 14 airspace.pdf */,
+			);
+			path = "National Airspace System";
+			sourceTree = "<group>";
+		};
+		4ED91E001A9A973C00D8E24F /* Operation of Systems */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E011A9A973C00D8E24F /* PHOAN-Chapter 2,5,6,7 system.pdf */,
+				4ED91E021A9A973C00D8E24F /* SEA-Chapter 7 system.pdf */,
+			);
+			path = "Operation of Systems";
+			sourceTree = "<group>";
+		};
+		4ED91E031A9A973C00D8E24F /* Performance and limitations */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E041A9A973C00D8E24F /* AC-61-84 performance.pdf */,
+				4ED91E051A9A973C00D8E24F /* PHOAN-Chapter 4 and 10 performance.pdf */,
+				4ED91E061A9A973C00D8E24F /* WBH-Chapter 1 performance.pdf */,
+			);
+			path = "Performance and limitations";
+			sourceTree = "<group>";
+		};
+		4ED91E071A9A973C00D8E24F /* SeaplaneBase rules and maritime aids to navigation  */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E081A9A973C00D8E24F /* AIM-Chapter 2 sea base.pdf */,
+				4ED91E091A9A973C00D8E24F /* Coast Guard Rules sea base.pdf */,
+				4ED91E0A1A9A973C00D8E24F /* SEA-Chpater 1 and 3 sea base.pdf */,
+			);
+			path = "SeaplaneBase rules and maritime aids to navigation ";
+			sourceTree = "<group>";
+		};
+		4ED91E0B1A9A973C00D8E24F /* Water and Seaplane CHaracteristics */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E0C1A9A973C00D8E24F /* SEA-Chapter 3 characteristics.pdf */,
+			);
+			path = "Water and Seaplane CHaracteristics";
+			sourceTree = "<group>";
+		};
+		4ED91E0D1A9A973C00D8E24F /* Weather Information */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E0E1A9A973C00D8E24F /* AC 00-6A weather.pdf */,
+				4ED91E0F1A9A973C00D8E24F /* AC-00-45 weather.pdf */,
+				4ED91E101A9A973C00D8E24F /* AC-61-84 weather.pdf */,
+				4ED91E111A9A973C00D8E24F /* PHOAN-Chapter 11 and 12 Weather.pdf */,
+			);
+			path = "Weather Information";
+			sourceTree = "<group>";
+		};
+		4ED91E121A9A973C00D8E24F /* Preflight Procedures */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E131A9A973C00D8E24F /* Before Takeoff Check */,
+				4ED91E161A9A973C00D8E24F /* Cockpit Management */,
+				4ED91E181A9A973C00D8E24F /* Engine Starting */,
+				4ED91E1E1A9A973C00D8E24F /* Preflight Inspection */,
+				4ED91E221A9A973C00D8E24F /* Runway Incursion Avoidance */,
+				4ED91E281A9A973C00D8E24F /* Taniing and Sailing */,
+				4ED91E2B1A9A973C00D8E24F /* Taxiing */,
+			);
+			path = "Preflight Procedures";
+			sourceTree = "<group>";
+		};
+		4ED91E131A9A973C00D8E24F /* Before Takeoff Check */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E141A9A973C00D8E24F /* AFH-Chapter 2 before takeoff.pdf */,
+				4ED91E151A9A973C00D8E24F /* SEA-Chapter 4 before takeoff.pdf */,
+			);
+			path = "Before Takeoff Check";
+			sourceTree = "<group>";
+		};
+		4ED91E161A9A973C00D8E24F /* Cockpit Management */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E171A9A973C00D8E24F /* AFH-Chapter 2 cockpit.pdf */,
+			);
+			path = "Cockpit Management";
+			sourceTree = "<group>";
+		};
+		4ED91E181A9A973C00D8E24F /* Engine Starting */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E191A9A973C00D8E24F /* AC-91-13C Engine start.pdf */,
+				4ED91E1A1A9A973C00D8E24F /* AC-91-55 Engine start.pdf */,
+				4ED91E1B1A9A973C00D8E24F /* AFH-Chapter 2 Engine start.pdf */,
+				4ED91E1C1A9A973C00D8E24F /* PHOAN-Chpater 6 Engine Start.pdf */,
+				4ED91E1D1A9A973C00D8E24F /* SEA-Chapter 4 Engine Start.pdf */,
+			);
+			path = "Engine Starting";
+			sourceTree = "<group>";
+		};
+		4ED91E1E1A9A973C00D8E24F /* Preflight Inspection */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E1F1A9A973C00D8E24F /* AFH-Chapter 2 p inspection.pdf */,
+				4ED91E201A9A973C00D8E24F /* AIM-Chpater 5 sec 1 p inspection.pdf */,
+				4ED91E211A9A973C00D8E24F /* SEA-Chapter 4 p inspection.pdf */,
+			);
+			path = "Preflight Inspection";
+			sourceTree = "<group>";
+		};
+		4ED91E221A9A973C00D8E24F /* Runway Incursion Avoidance */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E231A9A973C00D8E24F /* AC 91-73B incursion.pdf */,
+				4ED91E241A9A973C00D8E24F /* AC-150-5340-18F incursion.pdf */,
+				4ED91E251A9A973C00D8E24F /* AFH-Chapter 1 incursion.pdf */,
+				4ED91E261A9A973C00D8E24F /* AIM-Chapter 7 incursion.pdf */,
+				4ED91E271A9A973C00D8E24F /* PHOAN-Chapter13 incursion.pdf */,
+			);
+			path = "Runway Incursion Avoidance";
+			sourceTree = "<group>";
+		};
+		4ED91E281A9A973C00D8E24F /* Taniing and Sailing */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E291A9A973C00D8E24F /* Coast Guard Rules T and S.pdf */,
+				4ED91E2A1A9A973C00D8E24F /* SEA-Chapter 4 Tand S.pdf */,
+			);
+			path = "Taniing and Sailing";
+			sourceTree = "<group>";
+		};
+		4ED91E2B1A9A973C00D8E24F /* Taxiing */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E2C1A9A973C00D8E24F /* AFH-Chapter 2 Taxiing.pdf */,
+			);
+			path = Taxiing;
+			sourceTree = "<group>";
+		};
+		4ED91E2D1A9A973C00D8E24F /* Slow Flight and Stalls */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E2E1A9A973C00D8E24F /* Maneuvering During Slow FLight */,
+				4ED91E311A9A973C00D8E24F /* Power Off Stalls */,
+				4ED91E341A9A973C00D8E24F /* Power on Stalls */,
+				4ED91E371A9A973C00D8E24F /* Spin Awareness */,
+			);
+			path = "Slow Flight and Stalls";
+			sourceTree = "<group>";
+		};
+		4ED91E2E1A9A973C00D8E24F /* Maneuvering During Slow FLight */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E2F1A9A973C00D8E24F /* AC-61-67C maneuvering slow.pdf */,
+				4ED91E301A9A973C00D8E24F /* PHOAN-Chapter 4 maneuvering slow.pdf */,
+			);
+			path = "Maneuvering During Slow FLight";
+			sourceTree = "<group>";
+		};
+		4ED91E311A9A973C00D8E24F /* Power Off Stalls */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E321A9A973C00D8E24F /* AC-61-67C off stalls.pdf */,
+				4ED91E331A9A973C00D8E24F /* PHOAN-Chapter 4 off stalls.pdf */,
+			);
+			path = "Power Off Stalls";
+			sourceTree = "<group>";
+		};
+		4ED91E341A9A973C00D8E24F /* Power on Stalls */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E351A9A973C00D8E24F /* AC-61-67C on stalls.pdf */,
+				4ED91E361A9A973C00D8E24F /* PHOAN-Chapter 4 on stalls.pdf */,
+			);
+			path = "Power on Stalls";
+			sourceTree = "<group>";
+		};
+		4ED91E371A9A973C00D8E24F /* Spin Awareness */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E381A9A973C00D8E24F /* AC-61-67C spin.pdf */,
+				4ED91E391A9A973C00D8E24F /* PHOAN-Chapter 4 spin.pdf */,
+			);
+			path = "Spin Awareness";
+			sourceTree = "<group>";
+		};
+		4ED91E3A1A9A973C00D8E24F /* Takeoffs, Landings, Go-Arounds */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E3B1A9A973C00D8E24F /* Forward slip to a landing */,
+				4ED91E3D1A9A973C00D8E24F /* Glassy water approach and landing */,
+				4ED91E3F1A9A973C00D8E24F /* Glassy water takeoff and climb */,
+				4ED91E411A9A973C00D8E24F /* Go around rejected landing */,
+				4ED91E441A9A973C00D8E24F /* Normal and Crosswind landing */,
+				4ED91E471A9A973C00D8E24F /* Normal and Crosswind Takeoff */,
+				4ED91E4A1A9A973C00D8E24F /* Rough water approach and landing */,
+				4ED91E4C1A9A973C00D8E24F /* Rough water takeoff and climb */,
+				4ED91E4E1A9A973C00D8E24F /* Short field approach and landing */,
+				4ED91E511A9A973C00D8E24F /* Short Field takeoff and climb */,
+				4ED91E541A9A973C00D8E24F /* Soft Field Approach and Landing */,
+				4ED91E561A9A973C00D8E24F /* Soft Field take off and climb */,
+			);
+			path = "Takeoffs, Landings, Go-Arounds";
+			sourceTree = "<group>";
+		};
+		4ED91E3B1A9A973C00D8E24F /* Forward slip to a landing */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E3C1A9A973C00D8E24F /* AFH-Chapter 8 Slip.pdf */,
+			);
+			path = "Forward slip to a landing";
+			sourceTree = "<group>";
+		};
+		4ED91E3D1A9A973C00D8E24F /* Glassy water approach and landing */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E3E1A9A973C00D8E24F /* SEA-Chapter 6 Glassy Ldg.pdf */,
+			);
+			path = "Glassy water approach and landing";
+			sourceTree = "<group>";
+		};
+		4ED91E3F1A9A973C00D8E24F /* Glassy water takeoff and climb */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E401A9A973C00D8E24F /* SEA-Chapter 4 Glassy TO.pdf */,
+			);
+			path = "Glassy water takeoff and climb";
+			sourceTree = "<group>";
+		};
+		4ED91E411A9A973C00D8E24F /* Go around rejected landing */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E421A9A973C00D8E24F /* AFH-Chapter 8 GoAround.pdf */,
+				4ED91E431A9A973C00D8E24F /* SEA-Chapter 6 GoAround.pdf */,
+			);
+			path = "Go around rejected landing";
+			sourceTree = "<group>";
+		};
+		4ED91E441A9A973C00D8E24F /* Normal and Crosswind landing */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E451A9A973C00D8E24F /* AFH-Chapter 8 Normal Takeoff.pdf */,
+				4ED91E461A9A973C00D8E24F /* SEA-Chapter 6 Normal Takeoff.pdf */,
+			);
+			path = "Normal and Crosswind landing";
+			sourceTree = "<group>";
+		};
+		4ED91E471A9A973C00D8E24F /* Normal and Crosswind Takeoff */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E481A9A973C00D8E24F /* AFH-Chapter 5 Normal Takeoff.pdf */,
+				4ED91E491A9A973C00D8E24F /* SEA-Chapter 4 Normal takeoff.pdf */,
+			);
+			path = "Normal and Crosswind Takeoff";
+			sourceTree = "<group>";
+		};
+		4ED91E4A1A9A973C00D8E24F /* Rough water approach and landing */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E4B1A9A973C00D8E24F /* SEA-Chapter 6 Rough Ldg.pdf */,
+			);
+			path = "Rough water approach and landing";
+			sourceTree = "<group>";
+		};
+		4ED91E4C1A9A973C00D8E24F /* Rough water takeoff and climb */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E4D1A9A973C00D8E24F /* SEA Chapter 6 Rough TO.pdf */,
+			);
+			path = "Rough water takeoff and climb";
+			sourceTree = "<group>";
+		};
+		4ED91E4E1A9A973C00D8E24F /* Short field approach and landing */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E4F1A9A973C00D8E24F /* AFH-Chapter 8 Short Landing.pdf */,
+				4ED91E501A9A973C00D8E24F /* SEA-Chapter 6 Short Landing.pdf */,
+			);
+			path = "Short field approach and landing";
+			sourceTree = "<group>";
+		};
+		4ED91E511A9A973C00D8E24F /* Short Field takeoff and climb */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E521A9A973C00D8E24F /* AFH-Chapter 5 Short Takeoff.pdf */,
+				4ED91E531A9A973C00D8E24F /* SEA-Chapter 4 Short Takeoff.pdf */,
+			);
+			path = "Short Field takeoff and climb";
+			sourceTree = "<group>";
+		};
+		4ED91E541A9A973C00D8E24F /* Soft Field Approach and Landing */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E551A9A973C00D8E24F /* AFH-Chapter 8 Soft Landing.pdf */,
+			);
+			path = "Soft Field Approach and Landing";
+			sourceTree = "<group>";
+		};
+		4ED91E561A9A973C00D8E24F /* Soft Field take off and climb */ = {
+			isa = PBXGroup;
+			children = (
+				4ED91E571A9A973C00D8E24F /* AFH-Chapter 5 Soft Takeoff.pdf */,
+			);
+			path = "Soft Field take off and climb";
+			sourceTree = "<group>";
+		};
+		4EDBE7181A8AB6E500274F23 /* CellControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF76431A892041001439BC /* AOOCellController.h */,
+				4EFF76441A892041001439BC /* AOOCellController.m */,
+				4EDBE7131A8AA8BA00274F23 /* TaskCellController.h */,
+				4EDBE7141A8AA8BA00274F23 /* TaskCellController.m */,
+			);
+			name = CellControllers;
+			sourceTree = "<group>";
+		};
+		4EFF75FF1A87F0F1001439BC = {
+			isa = PBXGroup;
+			children = (
+				4EFF760A1A87F0F1001439BC /* Touch2Fly */,
+				4EFF76271A87F0F1001439BC /* Touch2FlyTests */,
+				4EFF76091A87F0F1001439BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EFF76091A87F0F1001439BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF76081A87F0F1001439BC /* Touch2Fly.app */,
+				4EFF76241A87F0F1001439BC /* Touch2FlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EFF760A1A87F0F1001439BC /* Touch2Fly */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF76361A87F489001439BC /* Controllers */,
+				4EFF76351A87F482001439BC /* Views */,
+				4EFF76341A87F47B001439BC /* Models */,
+				4EFF760B1A87F0F1001439BC /* Supporting Files */,
+			);
+			path = Touch2Fly;
+			sourceTree = "<group>";
+		};
+		4EFF760B1A87F0F1001439BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E75C8451A8BD40700C0E470 /* PDFs */,
+				4EFF76371A87F4AE001439BC /* Images */,
+				4EFF760C1A87F0F1001439BC /* Info.plist */,
+				4EBCC5311AA7913800205AAA /* PPLData.sqlite */,
+				4EA48EA41A903B75002B7717 /* Seed.json */,
+				4EFF760D1A87F0F1001439BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EFF76271A87F0F1001439BC /* Touch2FlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF762A1A87F0F1001439BC /* Touch2FlyTests.m */,
+				4EFF76281A87F0F1001439BC /* Supporting Files */,
+			);
+			path = Touch2FlyTests;
+			sourceTree = "<group>";
+		};
+		4EFF76281A87F0F1001439BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF76291A87F0F1001439BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EFF76341A87F47B001439BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF76121A87F0F1001439BC /* Touch2Fly.xcdatamodeld */,
+				4EBCC5341AA794A900205AAA /* Decision.h */,
+				4EBCC5351AA794A900205AAA /* Decision.m */,
+				4E77BA411A96A05900662730 /* References.h */,
+				4E77BA421A96A05900662730 /* References.m */,
+				4E59A2111A89DC73003C8FA9 /* TaskDescription.h */,
+				4E59A2121A89DC73003C8FA9 /* TaskDescription.m */,
+				4E59A20E1A89DC73003C8FA9 /* Tasks.h */,
+				4E59A20F1A89DC73003C8FA9 /* Tasks.m */,
+				4E59A20B1A89DC73003C8FA9 /* SubTaskDescription.h */,
+				4E59A20C1A89DC73003C8FA9 /* SubTaskDescription.m */,
+				4E59A2081A89DC73003C8FA9 /* AOOs.h */,
+				4E59A2091A89DC73003C8FA9 /* AOOs.m */,
+				4EDBE7121A8A755900274F23 /* AOOViewControllerProtocol.h */,
+				4E21FAB71A8F28BE0013469E /* TaskViewControllerProtocol.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4EFF76351A87F482001439BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF76181A87F0F1001439BC /* Main.storyboard */,
+				4EDBE7151A8AA8BA00274F23 /* TaskCellController.xib */,
+				4EFF76451A892041001439BC /* AOOCellController.xib */,
+				4EFF761D1A87F0F1001439BC /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4EFF76361A87F489001439BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EFF760F1A87F0F1001439BC /* AppDelegate.h */,
+				4EFF76101A87F0F1001439BC /* AppDelegate.m */,
+				4EFF76151A87F0F1001439BC /* AOOViewController.h */,
+				4EFF76161A87F0F1001439BC /* AOOViewController.m */,
+				4EFF76381A87F579001439BC /* TaskViewController.h */,
+				4EFF76391A87F579001439BC /* TaskViewController.m */,
+				4EFF763C1A87F5FD001439BC /* TaskDetailViewController.h */,
+				4EFF763D1A87F5FD001439BC /* TaskDetailViewController.m */,
+				4EEF04911AA50C0500F5DA72 /* MoreStuffTableViewController.h */,
+				4EEF04921AA50C0500F5DA72 /* MoreStuffTableViewController.m */,
+				4EEF04941AA51C0E00F5DA72 /* SettingsAndProgressViewController.h */,
+				4EEF04951AA51C0E00F5DA72 /* SettingsAndProgressViewController.m */,
+				4EEF04971AA51C3700F5DA72 /* FullDocumentListViewController.h */,
+				4EEF04981AA51C3700F5DA72 /* FullDocumentListViewController.m */,
+				4EEF049A1AA53C7200F5DA72 /* GlobalDecisions.h */,
+				4EEF049B1AA53C7200F5DA72 /* GlobalDecisions.m */,
+				4EDBE7181A8AB6E500274F23 /* CellControllers */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4EFF76371A87F4AE001439BC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4E21FAB51A8E704D0013469E /* redx.png */,
+				4EBCC5371AA7DB8800205AAA /* FlightBag.jpeg */,
+				4E21FAB31A8E70460013469E /* greenCheck.png */,
+				4EFF761B1A87F0F1001439BC /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EFF76071A87F0F1001439BC /* Touch2Fly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFF762E1A87F0F1001439BC /* Build configuration list for PBXNativeTarget "Touch2Fly" */;
+			buildPhases = (
+				4EFF76041A87F0F1001439BC /* Sources */,
+				4EFF76051A87F0F1001439BC /* Frameworks */,
+				4EFF76061A87F0F1001439BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touch2Fly;
+			productName = Touch2Fly;
+			productReference = 4EFF76081A87F0F1001439BC /* Touch2Fly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EFF76231A87F0F1001439BC /* Touch2FlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFF76311A87F0F1001439BC /* Build configuration list for PBXNativeTarget "Touch2FlyTests" */;
+			buildPhases = (
+				4EFF76201A87F0F1001439BC /* Sources */,
+				4EFF76211A87F0F1001439BC /* Frameworks */,
+				4EFF76221A87F0F1001439BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFF76261A87F0F1001439BC /* PBXTargetDependency */,
+			);
+			name = Touch2FlyTests;
+			productName = Touch2FlyTests;
+			productReference = 4EFF76241A87F0F1001439BC /* Touch2FlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EFF76001A87F0F1001439BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jon Vogel";
+				TargetAttributes = {
+					4EFF76071A87F0F1001439BC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4EFF76231A87F0F1001439BC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4EFF76071A87F0F1001439BC;
+					};
+				};
+			};
+			buildConfigurationList = 4EFF76031A87F0F1001439BC /* Build configuration list for PBXProject "Touch2Fly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EFF75FF1A87F0F1001439BC;
+			productRefGroup = 4EFF76091A87F0F1001439BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EFF76071A87F0F1001439BC /* Touch2Fly */,
+				4EFF76231A87F0F1001439BC /* Touch2FlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EFF76061A87F0F1001439BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED91E791A9A973C00D8E24F /* IFH-Chapter 7 inst services.pdf in Resources */,
+				4ED91E9C1A9A973C00D8E24F /* AC-61-84 cross country.pdf in Resources */,
+				4ED91EBB1A9A973C00D8E24F /* AFH-Chapter 1 incursion.pdf in Resources */,
+				4E21FAB41A8E70460013469E /* greenCheck.png in Resources */,
+				4ED91E581A9A973C00D8E24F /* AC-150-5340-18F Airport lighting.pdf in Resources */,
+				4ED91E781A9A973C00D8E24F /* AFH-Chapter 10 inst services.pdf in Resources */,
+				4ED91EA81A9A973C00D8E24F /* SEA-Chpater 1 and 3 sea base.pdf in Resources */,
+				4ED91ED11A9A973C00D8E24F /* SEA-Chapter 4 Normal takeoff.pdf in Resources */,
+				4ED91EA51A9A973C00D8E24F /* WBH-Chapter 1 performance.pdf in Resources */,
+				4ED91EC91A9A973C00D8E24F /* AFH-Chapter 8 Slip.pdf in Resources */,
+				4ED91EBD1A9A973C00D8E24F /* PHOAN-Chapter13 incursion.pdf in Resources */,
+				4ED91EC61A9A973C00D8E24F /* PHOAN-Chapter 4 on stalls.pdf in Resources */,
+				4ED91E751A9A973C00D8E24F /* IFH-Chapter 4 and 5 const climbs.pdf in Resources */,
+				4ED91EC41A9A973C00D8E24F /* PHOAN-Chapter 4 off stalls.pdf in Resources */,
+				4ED91E761A9A973C00D8E24F /* AFH-Chapter 16 const descent.pdf in Resources */,
+				4EEF04901AA4FA5500F5DA72 /* SEA Chapter 6 ramp beach.pdf in Resources */,
+				4ED91EBF1A9A973C00D8E24F /* SEA-Chapter 4 Tand S.pdf in Resources */,
+				4ED91EA41A9A973C00D8E24F /* PHOAN-Chapter 4 and 10 performance.pdf in Resources */,
+				4ED91E8C1A9A973C00D8E24F /* AAH-All navigation.pdf in Resources */,
+				4ED91EAD1A9A973C00D8E24F /* PHOAN-Chapter 11 and 12 Weather.pdf in Resources */,
+				4ED91E621A9A973C00D8E24F /* PHOAN-Chapter 13 Traffic.pdf in Resources */,
+				4ED91ECE1A9A973C00D8E24F /* AFH-Chapter 8 Normal Takeoff.pdf in Resources */,
+				4ED91EAE1A9A973C00D8E24F /* AFH-Chapter 2 before takeoff.pdf in Resources */,
+				4ED91E6F1A9A973C00D8E24F /* Instrument Flying Handbook.pdf in Resources */,
+				4ED91EB11A9A973C00D8E24F /* AC-91-13C Engine start.pdf in Resources */,
+				4EDBE7171A8AA8BA00274F23 /* TaskCellController.xib in Resources */,
+				4ED91E8A1A9A973C00D8E24F /* AIM-Chapter 6 Lost.pdf in Resources */,
+				4ED91E851A9A973C00D8E24F /* AFH-Chapter 6 Rec Course.pdf in Resources */,
+				4E21FAB61A8E704D0013469E /* redx.png in Resources */,
+				4ED91E701A9A973C00D8E24F /* Aircraft Weight and Balance Handbook.pdf in Resources */,
+				4ED91ED41A9A973C00D8E24F /* AFH-Chapter 8 Short Landing.pdf in Resources */,
+				4ED91E5D1A9A973C00D8E24F /* AIM-Chapter 4 Radio.pdf in Resources */,
+				4ED91ED81A9A973C00D8E24F /* AFH-Chapter 8 Soft Landing.pdf in Resources */,
+				4ED91EBA1A9A973C00D8E24F /* AC-150-5340-18F incursion.pdf in Resources */,
+				4ED91E871A9A973C00D8E24F /* AFH-Chapter 6 Turns Point.pdf in Resources */,
+				4ED91E891A9A973C00D8E24F /* PHOAN-Chapter 15 diversion.pdf in Resources */,
+				4ED91ECC1A9A973C00D8E24F /* AFH-Chapter 8 GoAround.pdf in Resources */,
+				4ED91EC81A9A973C00D8E24F /* PHOAN-Chapter 4 spin.pdf in Resources */,
+				4EFF761A1A87F0F1001439BC /* Main.storyboard in Resources */,
+				4ED91E881A9A973C00D8E24F /* AIM-Table Of Contents diversion.pdf in Resources */,
+				4ED91E8B1A9A973C00D8E24F /* PHOAN-Chapter 15 Lost.pdf in Resources */,
+				4ED91E8E1A9A973C00D8E24F /* AIM-Chapter 1 navigation.pdf in Resources */,
+				4ED91ED21A9A973C00D8E24F /* SEA-Chapter 6 Rough Ldg.pdf in Resources */,
+				4ED91EB01A9A973C00D8E24F /* AFH-Chapter 2 cockpit.pdf in Resources */,
+				4ED91ECF1A9A973C00D8E24F /* SEA-Chapter 6 Normal Takeoff.pdf in Resources */,
+				4ED91E8F1A9A973C00D8E24F /* PHOAN-Chapter 15 navigation.pdf in Resources */,
+				4ED91E591A9A973C00D8E24F /* AC-91-73B Airport lighting.pdf in Resources */,
+				4ED91E651A9A973C00D8E24F /* AC 61-67C  Stall and Spin Training.pdf in Resources */,
+				4ED91E981A9A973C00D8E24F /* PHOAN-Chapter 8 airworthy.pdf in Resources */,
+				4ED91EBE1A9A973C00D8E24F /* Coast Guard Rules T and S.pdf in Resources */,
+				4ED91E941A9A973C00D8E24F /* 3-SteepTurns.pdf in Resources */,
+				4ED91E721A9A973C00D8E24F /* Airplane Flying Handbook.pdf in Resources */,
+				4ED91E6E1A9A973C00D8E24F /* errata_sheet_150_5340_18f.pdf in Resources */,
+				4EBCC5381AA7DB8800205AAA /* FlightBag.jpeg in Resources */,
+				4ED91E961A9A973C00D8E24F /* AIM-Chapter 8 Aeromadical.pdf in Resources */,
+				4ED91E7C1A9A973C00D8E24F /* IFH-Chapter 4 and 5 unusual attitude.pdf in Resources */,
+				4ED91E841A9A973C00D8E24F /* AFH-Chapter 16 malfunction.pdf in Resources */,
+				4ED91E5C1A9A973C00D8E24F /* SEA-Chapter 3 Airport lighting.pdf in Resources */,
+				4ED91EB81A9A973C00D8E24F /* SEA-Chapter 4 p inspection.pdf in Resources */,
+				4ED91EA31A9A973C00D8E24F /* AC-61-84 performance.pdf in Resources */,
+				4EBCC5321AA7913800205AAA /* PPLData.sqlite in Resources */,
+				4ED91E9D1A9A973C00D8E24F /* AIM Chapter 9 cross country.pdf in Resources */,
+				4ED91EAB1A9A973C00D8E24F /* AC-00-45 weather.pdf in Resources */,
+				4ED91EB91A9A973C00D8E24F /* AC 91-73B incursion.pdf in Resources */,
+				4ED91E7A1A9A973C00D8E24F /* PHOAN-Chapter 15 inst services.pdf in Resources */,
+				4ED91EC21A9A973C00D8E24F /* PHOAN-Chapter 4 maneuvering slow.pdf in Resources */,
+				4EEF048A1AA4FA3A00F5DA72 /* SEA Chapter 6 after ldg.pdf in Resources */,
+				4EA48EA51A903B75002B7717 /* Seed.json in Resources */,
+				4ED91EB71A9A973C00D8E24F /* AIM-Chpater 5 sec 1 p inspection.pdf in Resources */,
+				4ED91E661A9A973C00D8E24F /* AC 91-73B Taxi Operations.pdf in Resources */,
+				4ED91E861A9A973C00D8E24F /* AFH-Chapter 6 STurns.pdf in Resources */,
+				4ED91E991A9A973C00D8E24F /* AFH-Chapter 2 certs and docs.pdf in Resources */,
+				4ED91E821A9A973C00D8E24F /* AFH-Chapter 16 emrg descent.pdf in Resources */,
+				4ED91EC51A9A973C00D8E24F /* AC-61-67C on stalls.pdf in Resources */,
+				4ED91EB41A9A973C00D8E24F /* PHOAN-Chpater 6 Engine Start.pdf in Resources */,
+				4ED91E9E1A9A973C00D8E24F /* PHOAN Chapter 10 and 15 cross country.pdf in Resources */,
+				4ED91EA71A9A973C00D8E24F /* Coast Guard Rules sea base.pdf in Resources */,
+				4ED91EAC1A9A973C00D8E24F /* AC-61-84 weather.pdf in Resources */,
+				4ED91E5E1A9A973C00D8E24F /* PHOAN-Chapter 13 Radio.pdf in Resources */,
+				4ED91E6D1A9A973C00D8E24F /* Coast Guard Navigation Rules and Regulations Handbook.pdf in Resources */,
+				4EFF76471A892041001439BC /* AOOCellController.xib in Resources */,
+				4ED91EBC1A9A973C00D8E24F /* AIM-Chapter 7 incursion.pdf in Resources */,
+				4ED91E911A9A973C00D8E24F /* AFH-Chapter 10 night.pdf in Resources */,
+				4ED91ED31A9A973C00D8E24F /* SEA Chapter 6 Rough TO.pdf in Resources */,
+				4EEF04881AA4FA2600F5DA72 /* SEA-Chapter 6 emrg ldg.pdf in Resources */,
+				4ED91E771A9A973C00D8E24F /* IFH-Chapter 4 and 5 const descent.pdf in Resources */,
+				4ED91EB31A9A973C00D8E24F /* AFH-Chapter 2 Engine start.pdf in Resources */,
+				4EFF761F1A87F0F1001439BC /* LaunchScreen.xib in Resources */,
+				4ED91E901A9A973C00D8E24F /* PHOAN-Chapter 15 Pilotage.pdf in Resources */,
+				4ED91EA91A9A973C00D8E24F /* SEA-Chapter 3 characteristics.pdf in Resources */,
+				4ED91EA01A9A973C00D8E24F /* PHOAN-Chapter 14 airspace.pdf in Resources */,
+				4ED91E7B1A9A973C00D8E24F /* AFH-Chapter 16 unusual attitude.pdf in Resources */,
+				4ED91E9F1A9A973C00D8E24F /* AIM-Chapter 3 airspace.pdf in Resources */,
+				4ED91E7D1A9A973C00D8E24F /* AFH-Chapter 16 straight and level.pdf in Resources */,
+				4ED91E9B1A9A973C00D8E24F /* SEAPlane-Chapter 1 certs and docs.pdf in Resources */,
+				4ED91E831A9A973C00D8E24F /* AFH-Chapter 16 survival gear.pdf in Resources */,
+				4ED91E9A1A9A973C00D8E24F /* PHOAN-Chapter 1 and 8 certs and docs.pdf in Resources */,
+				4ED91ED51A9A973C00D8E24F /* SEA-Chapter 6 Short Landing.pdf in Resources */,
+				4ED91E971A9A973C00D8E24F /* PHOAN-Chapter 16 aeromedical.pdf in Resources */,
+				4ED91E731A9A973C00D8E24F /* Advanced Avionics Handbook.pdf in Resources */,
+				4ED91E951A9A973C00D8E24F /* AFH-Chapter 2 after ldg.pdf in Resources */,
+				4ED91EA21A9A973C00D8E24F /* SEA-Chapter 7 system.pdf in Resources */,
+				4ED91EC11A9A973C00D8E24F /* AC-61-67C maneuvering slow.pdf in Resources */,
+				4ED91EC71A9A973C00D8E24F /* AC-61-67C spin.pdf in Resources */,
+				4ED91EA11A9A973C00D8E24F /* PHOAN-Chapter 2,5,6,7 system.pdf in Resources */,
+				4ED91ED01A9A973C00D8E24F /* AFH-Chapter 5 Normal Takeoff.pdf in Resources */,
+				4ED91E8D1A9A973C00D8E24F /* AFH-Chapter 10 navigation.pdf in Resources */,
+				4ED91E611A9A973C00D8E24F /* AIM-Chapter 4 Traffic.pdf in Resources */,
+				4ED91E671A9A973C00D8E24F /* AC-00-45G Aviation Weather Services.pdf in Resources */,
+				4ED91E741A9A973C00D8E24F /* AFH-Chapter 16 const climbs.pdf in Resources */,
+				4ED91E801A9A973C00D8E24F /* IFH-Chapter 4 and 5 turns heading.pdf in Resources */,
+				4ED91EB51A9A973C00D8E24F /* SEA-Chapter 4 Engine Start.pdf in Resources */,
+				4ED91EC01A9A973C00D8E24F /* AFH-Chapter 2 Taxiing.pdf in Resources */,
+				4ED91E6A1A9A973C00D8E24F /* AC 91-13C Cold Weather Operations.pdf in Resources */,
+				4ED91E5A1A9A973C00D8E24F /* AIM-Chapter 2 Airport lighting.pdf in Resources */,
+				4ED91ED91A9A973C00D8E24F /* AFH-Chapter 5 Soft Takeoff.pdf in Resources */,
+				4ED91EB21A9A973C00D8E24F /* AC-91-55 Engine start.pdf in Resources */,
+				4ED91EB61A9A973C00D8E24F /* AFH-Chapter 2 p inspection.pdf in Resources */,
+				4EEF048E1AA4FA4D00F5DA72 /* SEA Chapter 6 dock moor.pdf in Resources */,
+				4ED91E7E1A9A973C00D8E24F /* IFH-Chapter 4 and 5 straight and level.pdf in Resources */,
+				4ED91EC31A9A973C00D8E24F /* AC-61-67C off stalls.pdf in Resources */,
+				4EFF761C1A87F0F1001439BC /* Images.xcassets in Resources */,
+				4ED91ECD1A9A973C00D8E24F /* SEA-Chapter 6 GoAround.pdf in Resources */,
+				4ED91ECB1A9A973C00D8E24F /* SEA-Chapter 4 Glassy TO.pdf in Resources */,
+				4ED91E811A9A973C00D8E24F /* AFH-Chapter 16 emrg ldg.pdf in Resources */,
+				4ED91E681A9A973C00D8E24F /* AC 61-84B Role of Preflight Preparation.pdf in Resources */,
+				4ED91E5F1A9A973C00D8E24F /* AC-90-66A Traffic.pdf in Resources */,
+				4ED91E931A9A973C00D8E24F /* PHOAN-Chapter 16 night.pdf in Resources */,
+				4ED91ED71A9A973C00D8E24F /* SEA-Chapter 4 Short Takeoff.pdf in Resources */,
+				4ED91E641A9A973C00D8E24F /* AC 00-6A Aviation Weather.pdf in Resources */,
+				4ED91E5B1A9A973C00D8E24F /* PHOAN-Chapter 13 Airport lighting.pdf in Resources */,
+				4ED91E631A9A973C00D8E24F /* AC 150-5340-18F Standards for Airport Signs.pdf in Resources */,
+				4ED91E6B1A9A973C00D8E24F /* AC 91-55 Reduction of Electrical Failures.pdf in Resources */,
+				4EEF048C1AA4FA4500F5DA72 /* SEA Chapter 6 anchoring.pdf in Resources */,
+				4ED91E691A9A973C00D8E24F /* AC 90-66A Standard Traffic Patterns at Uncontrolled Airports.pdf in Resources */,
+				4ED91E7F1A9A973C00D8E24F /* AFH-Chapter 16 turns heading.pdf in Resources */,
+				4ED91ED61A9A973C00D8E24F /* AFH-Chapter 5 Short Takeoff.pdf in Resources */,
+				4ED91EAF1A9A973C00D8E24F /* SEA-Chapter 4 before takeoff.pdf in Resources */,
+				4ED91EAA1A9A973C00D8E24F /* AC 00-6A weather.pdf in Resources */,
+				4ED91ECA1A9A973C00D8E24F /* SEA-Chapter 6 Glassy Ldg.pdf in Resources */,
+				4ED91E921A9A973C00D8E24F /* AIM-Chapter 2 night.pdf in Resources */,
+				4ED91EA61A9A973C00D8E24F /* AIM-Chapter 2 sea base.pdf in Resources */,
+				4ED91E601A9A973C00D8E24F /* AFH-Chapter 7 Traffic.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFF76221A87F0F1001439BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EFF76041A87F0F1001439BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEF04991AA51C3700F5DA72 /* FullDocumentListViewController.m in Sources */,
+				4EDBE7161A8AA8BA00274F23 /* TaskCellController.m in Sources */,
+				4EEF049C1AA53C7200F5DA72 /* GlobalDecisions.m in Sources */,
+				4EFF76111A87F0F1001439BC /* AppDelegate.m in Sources */,
+				4E59A20D1A89DC73003C8FA9 /* SubTaskDescription.m in Sources */,
+				4E59A2131A89DC73003C8FA9 /* TaskDescription.m in Sources */,
+				4EEF04961AA51C0E00F5DA72 /* SettingsAndProgressViewController.m in Sources */,
+				4EFF76461A892041001439BC /* AOOCellController.m in Sources */,
+				4EFF760E1A87F0F1001439BC /* main.m in Sources */,
+				4E59A20A1A89DC73003C8FA9 /* AOOs.m in Sources */,
+				4EFF763A1A87F579001439BC /* TaskViewController.m in Sources */,
+				4EBCC5361AA794A900205AAA /* Decision.m in Sources */,
+				4EFF76171A87F0F1001439BC /* AOOViewController.m in Sources */,
+				4E77BA431A96A05900662730 /* References.m in Sources */,
+				4EFF763E1A87F5FD001439BC /* TaskDetailViewController.m in Sources */,
+				4E59A2101A89DC73003C8FA9 /* Tasks.m in Sources */,
+				4EFF76141A87F0F1001439BC /* Touch2Fly.xcdatamodeld in Sources */,
+				4EEF04931AA50C0500F5DA72 /* MoreStuffTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFF76201A87F0F1001439BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFF762B1A87F0F1001439BC /* Touch2FlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EFF76261A87F0F1001439BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EFF76071A87F0F1001439BC /* Touch2Fly */;
+			targetProxy = 4EFF76251A87F0F1001439BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EFF76181A87F0F1001439BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFF76191A87F0F1001439BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EFF761D1A87F0F1001439BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EFF761E1A87F0F1001439BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EFF762C1A87F0F1001439BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EFF762D1A87F0F1001439BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EFF762F1A87F0F1001439BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Touch2Fly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EFF76301A87F0F1001439BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Touch2Fly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EFF76321A87F0F1001439BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Touch2FlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touch2Fly.app/Touch2Fly";
+			};
+			name = Debug;
+		};
+		4EFF76331A87F0F1001439BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Touch2FlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touch2Fly.app/Touch2Fly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EFF76031A87F0F1001439BC /* Build configuration list for PBXProject "Touch2Fly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFF762C1A87F0F1001439BC /* Debug */,
+				4EFF762D1A87F0F1001439BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFF762E1A87F0F1001439BC /* Build configuration list for PBXNativeTarget "Touch2Fly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFF762F1A87F0F1001439BC /* Debug */,
+				4EFF76301A87F0F1001439BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFF76311A87F0F1001439BC /* Build configuration list for PBXNativeTarget "Touch2FlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EFF76321A87F0F1001439BC /* Debug */,
+				4EFF76331A87F0F1001439BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4EFF76121A87F0F1001439BC /* Touch2Fly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4EBCC5331AA793B500205AAA /* Touch2FlyWithDecision.xcdatamodel */,
+				4EFF76131A87F0F1001439BC /* Touch2Fly.xcdatamodel */,
+			);
+			currentVersion = 4EBCC5331AA793B500205AAA /* Touch2FlyWithDecision.xcdatamodel */;
+			path = Touch2Fly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4EFF76001A87F0F1001439BC /* Project object */;
+}

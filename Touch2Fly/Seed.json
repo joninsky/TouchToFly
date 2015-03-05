@@ -1,0 +1,1322 @@
+{
+  
+  "Task A: Certificates and Documents (ASEL and ASES)": [ {
+                                                         "url": "PHOAN-Chapter 1 and 8 certs and docs",
+                                                         "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                                         "subPhrase": "Chapter 1 and 8",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         },
+                                                         {
+                                                         "url": "SEAPlane-Chapter 1 certs and docs",
+                                                         "phrase": "Seaplane Hand book",
+                                                         "subPhrase": "Chapter 1",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         },
+                                                         {
+                                                         "url": "AFH-Chapter 2 certs and docs",
+                                                         "phrase": "Airplane Flying Handbook",
+                                                         "subPhrase": "Chapter 2",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         }
+ ],
+  "Task B: Airworthiness Requirements (ASEL and ASES)": [
+  
+                                                         {
+                                                         "url": "PHOAN-Chapter 8 airworthy",
+                                                         "phrase": "Pilots Handbook Of Aeronautical Knowledge",
+                                                         "subPhrase": "Chapter 8",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         }
+  
+  ],
+  "Task C: Weather Information (ASEL and ASES)": [
+                                                  {
+                                                  "url": "PHOAN-Chapter 11 and 12 Weather",
+                                                  "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                                  "subPhrase": "Chapter 1 and 8",
+                                                  "typeOfFile": "pdf",
+                                                  "isFaa": 1,
+                                                  "isfavorite": 0,
+                                                  "isVerified": 1,
+                                                  "votes": 0
+                                                  },
+                                                  {
+                                                  "url": "AC 00-6A weather",
+                                                  "phrase": "Aviation Weather AC",
+                                                  "subPhrase": "Full Document",
+                                                  "typeOfFile": "pdf",
+                                                  "isFaa": 1,
+                                                  "isfavorite": 0,
+                                                  "isVerified": 1,
+                                                  "votes": 0
+                                                  },
+                                                  {
+                                                  "url": "AC-00-45 weather",
+                                                  "phrase": "Aviation Weather Services AC",
+                                                  "subPhrase": "Full Document",
+                                                  "typeOfFile": "pdf",
+                                                  "isFaa": 1,
+                                                  "isfavorite": 0,
+                                                  "isVerified": 1,
+                                                  "votes": 0
+                                                  },
+                                                  {
+                                                  "url": "AC-61-84 weather",
+                                                  "phrase": "Role of Preflight Preperation",
+                                                  "subPhrase": "Full Document",
+                                                  "typeOfFile": "pdf",
+                                                  "isFaa": 1,
+                                                  "isfavorite": 0,
+                                                  "isVerified": 1,
+                                                  "votes": 0
+                                                  }
+                                                  
+  ],
+  "Task D: Cross-Country Flight Planning (ASEL and ASES)": [
+                                                            {
+                                                            "url": "PHOAN Chapter 10 and 15 cross country",
+                                                            "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                                            "subPhrase": "Chapter 10 and 15",
+                                                            "typeOfFile": "pdf",
+                                                            "isFaa": 1,
+                                                            "isfavorite": 0,
+                                                            "isVerified": 1,
+                                                            "votes": 0
+                                                            },
+                                                            {
+                                                            "url": "AIM Chapter 9 cross country",
+                                                            "phrase": "Aeronautical Information Manual",
+                                                            "subPhrase": "Chapter 9",
+                                                            "typeOfFile": "pdf",
+                                                            "isFaa": 1,
+                                                            "isfavorite": 0,
+                                                            "isVerified": 1,
+                                                            "votes": 0
+                                                            },
+                                                            {
+                                                            "url": "AC-61-84 cross country",
+                                                            "phrase": "Role of Preflight Preperation",
+                                                            "subPhrase": "Full Document",
+                                                            "typeOfFile": "pdf",
+                                                            "isFaa": 1,
+                                                            "isfavorite": 0,
+                                                            "isVerified": 1,
+                                                            "votes": 0
+                                                            }
+  ],
+  "Task E: National Airspace System (ASEL and ASES)": [
+                                                       {
+                                                       "url": "AIM-Chapter 3 airspace",
+                                                       "phrase": "Aeronautical Information Manual",
+                                                       "subPhrase": "Chapter 3",
+                                                       "typeOfFile": "pdf",
+                                                       "isFaa": 1,
+                                                       "isfavorite": 0,
+                                                       "isVerified": 1,
+                                                       "votes": 0
+                                                       },
+                                                       {
+                                                       "url": "PHOAN-Chapter 14 airspace",
+                                                       "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                                       "subPhrase": "Chapter 14",
+                                                       "typeOfFile": "pdf",
+                                                       "isFaa": 1,
+                                                       "isfavorite": 0,
+                                                       "isVerified": 1,
+                                                       "votes": 0
+                                                       }
+  ],
+  "Task F: Performance and Limitations (ASEL and ASES)": [
+                                                          {
+                                                          "url": "WBH-Chapter 1 performance",
+                                                          "phrase": "Weight and Balance Handbook",
+                                                          "subPhrase": "Chapter 1",
+                                                          "typeOfFile": "pdf",
+                                                          "isFaa": 1,
+                                                          "isfavorite": 0,
+                                                          "isVerified": 1,
+                                                          "votes": 0
+                                                          },
+                                                          {
+                                                          "url": "PHOAN-Chapter 4 and 10 performance",
+                                                          "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                                          "subPhrase": "Chapter 4 and 10",
+                                                          "typeOfFile": "pdf",
+                                                          "isFaa": 1,
+                                                          "isfavorite": 0,
+                                                          "isVerified": 1,
+                                                          "votes": 0
+                                                          },
+                                                          {
+                                                          "url": "AC-61-84 performance",
+                                                          "phrase": "Role of Preflight Preperation",
+                                                          "subPhrase": "Full Document",
+                                                          "typeOfFile": "pdf",
+                                                          "isFaa": 1,
+                                                          "isfavorite": 0,
+                                                          "isVerified": 1,
+                                                          "votes": 0
+                                                          }
+  ],
+  "Task G: Operation of Systems (ASEL and ASES)": [
+                                                   {
+                                                   "url": "SEA-Chapter 7 system",
+                                                   "phrase": "Seaplane Operations",
+                                                   "subPhrase": "Chapter 7",
+                                                   "typeOfFile": "pdf",
+                                                   "isFaa": 1,
+                                                   "isfavorite": 0,
+                                                   "isVerified": 1,
+                                                   "votes": 0
+                                                   },
+                                                   {
+                                                   "url": "PHOAN-Chapter 2,5,6,7 system",
+                                                   "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                                   "subPhrase": "Chapter 2,5,6,7",
+                                                   "typeOfFile": "pdf",
+                                                   "isFaa": 1,
+                                                   "isfavorite": 0,
+                                                   "isVerified": 1,
+                                                   "votes": 0
+                                                   }
+  ],
+  "Task H: Water and Seaplane Characteristics (ASES)": [
+                                                        {
+                                                        "url": "SEA-Chapter 3 characteristics",
+                                                        "phrase": "Seaplane Operations",
+                                                        "subPhrase": "Chapter 3",
+                                                        "typeOfFile": "pdf",
+                                                        "isFaa": 1,
+                                                        "isfavorite": 0,
+                                                        "isVerified": 1,
+                                                        "votes": 0
+                                                        }
+  ],
+  "Task I: Seaplane BASES, Maritime Rules, and Aids to Marine Navigation (ASES)": [
+                                                                                   {
+                                                                                   "url": "AIM-Chapter 2 sea base",
+                                                                                   "phrase": "Aeronautical Information Manuel",
+                                                                                   "subPhrase": "Chapter 2",
+                                                                                   "typeOfFile": "pdf",
+                                                                                   "isFaa": 1,
+                                                                                   "isfavorite": 0,
+                                                                                   "isVerified": 1,
+                                                                                   "votes": 0
+                                                                                   },
+                                                                                   {
+                                                                                   "url": "Coast Guard Rules sea base",
+                                                                                   "phrase": "Coast Guard Rules",
+                                                                                   "subPhrase": "Full Document",
+                                                                                   "typeOfFile": "pdf",
+                                                                                   "isFaa": 1,
+                                                                                   "isfavorite": 0,
+                                                                                   "isVerified": 1,
+                                                                                   "votes": 0
+                                                                                   },
+                                                                                   {
+                                                                                   "url": "SEA-Chpater 1 and 3 sea base",
+                                                                                   "phrase": "Seaplane Operations",
+                                                                                   "subPhrase": "Chapter 1 and 3",
+                                                                                   "typeOfFile": "pdf",
+                                                                                   "isFaa": 1,
+                                                                                   "isfavorite": 0,
+                                                                                   "isVerified": 1,
+                                                                                   "votes": 0
+                                                                                   }
+  ],
+  "Task J: Aeromedical Factors (ASEL and ASES)": [
+                                                  {
+                                                  "url": "AIM-Chapter 8 Aeromadical",
+                                                  "phrase": "Aeronautical Information Manuel",
+                                                  "subPhrase": "Chapter 8",
+                                                  "typeOfFile": "pdf",
+                                                  "isFaa": 1,
+                                                  "isfavorite": 0,
+                                                  "isVerified": 1,
+                                                  "votes": 0
+                                                  },
+                                                  {
+                                                  "url": "PHOAN-Chapter 16 aeromedical",
+                                                  "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                                  "subPhrase": "Chapter 16",
+                                                  "typeOfFile": "pdf",
+                                                  "isFaa": 1,
+                                                  "isfavorite": 0,
+                                                  "isVerified": 1,
+                                                  "votes": 0
+                                                  }
+  ],
+  "Task A: Preflight Inspection (ASEL and ASES)": [
+                                                   {
+                                                   "url": "AFH-Chapter 2 p inspection",
+                                                   "phrase": "Airplane Flying Handbook",
+                                                   "subPhrase": "Chapter 2",
+                                                   "typeOfFile": "pdf",
+                                                   "isFaa": 1,
+                                                   "isfavorite": 0,
+                                                   "isVerified": 1,
+                                                   "votes": 0
+                                                   },
+                                                   {
+                                                   "url": "AIM-Chpater 5 sec 1 p inspection",
+                                                   "phrase": "Aeronautical Information Manuel",
+                                                   "subPhrase": "Chapter 5 section 1",
+                                                   "typeOfFile": "pdf",
+                                                   "isFaa": 1,
+                                                   "isfavorite": 0,
+                                                   "isVerified": 1,
+                                                   "votes": 0
+                                                   },
+                                                   {
+                                                   "url": "SEA-Chapter 4 p inspection",
+                                                   "phrase": "Seaplane Handbook",
+                                                   "subPhrase": "Chapter 4",
+                                                   "typeOfFile": "pdf",
+                                                   "isFaa": 1,
+                                                   "isfavorite": 0,
+                                                   "isVerified": 1,
+                                                   "votes": 0
+                                                   }
+  ],
+  "Task B: Cockpit Management (ASEL and ASES)": [
+                                                 {
+                                                 "url": "AFH-Chapter 2 cockpit",
+                                                 "phrase": "Airplane Flying Handbook",
+                                                 "subPhrase": "Chapter 2",
+                                                 "typeOfFile": "pdf",
+                                                 "isFaa": 1,
+                                                 "isfavorite": 0,
+                                                 "isVerified": 1,
+                                                 "votes": 0
+                                                 }
+  ],
+  "Task C: Engine Starting (ASEL and ASES)": [
+                                              {
+                                              "url": "SEA-Chapter 4 Engine Start",
+                                              "phrase": "Seaplane Handbook",
+                                              "subPhrase": "Chapter 4",
+                                              "typeOfFile": "pdf",
+                                              "isFaa": 1,
+                                              "isfavorite": 0,
+                                              "isVerified": 1,
+                                              "votes": 0
+                                              },
+                                              {
+                                              "url": "PHOAN-Chpater 6 Engine Start",
+                                              "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                              "subPhrase": "Chapter 6",
+                                              "typeOfFile": "pdf",
+                                              "isFaa": 1,
+                                              "isfavorite": 0,
+                                              "isVerified": 1,
+                                              "votes": 0
+                                              },
+                                              {
+                                              "url": "AFH-Chapter 2 Engine start",
+                                              "phrase": "Airplane Flying Handbook",
+                                              "subPhrase": "Chapter 2",
+                                              "typeOfFile": "pdf",
+                                              "isFaa": 1,
+                                              "isfavorite": 0,
+                                              "isVerified": 1,
+                                              "votes": 0
+                                              },
+                                              {
+                                              "url": "AC-91-55 Engine start",
+                                              "phrase": "Electrical System Fail Reduction AC",
+                                              "subPhrase": "Full Document",
+                                              "typeOfFile": "pdf",
+                                              "isFaa": 1,
+                                              "isfavorite": 0,
+                                              "isVerified": 1,
+                                              "votes": 0
+                                              },
+                                              {
+                                              "url": "AC-91-13C Engine start",
+                                              "phrase": "Cold Weather Operations",
+                                              "subPhrase": "Full Document",
+                                              "typeOfFile": "pdf",
+                                              "isFaa": 1,
+                                              "isfavorite": 0,
+                                              "isVerified": 1,
+                                              "votes": 0
+                                              }
+  ],
+  "Task D: Taxiing (ASEL)": [
+                             {
+                             "url": "AFH-Chapter 2 Taxiing",
+                             "phrase": "Airplane Flying Handbook",
+                             "subPhrase": "Chapter 2",
+                             "typeOfFile": "pdf",
+                             "isFaa": 1,
+                             "isfavorite": 0,
+                             "isVerified": 1,
+                             "votes": 0
+                             }
+  ],
+  "Task E: Taxiing and Sailing (ASES)": [
+                                         {
+                                         "url": "Coast Guard Rules T and S",
+                                         "phrase": "Coast Guard Rules",
+                                         "subPhrase": "Full Document",
+                                         "typeOfFile": "pdf",
+                                         "isFaa": 1,
+                                         "isfavorite": 0,
+                                         "isVerified": 1,
+                                         "votes": 0
+                                         },
+                                         {
+                                         "url": "SEA-Chapter 4 Tand S",
+                                         "phrase": "Seaplane Operations",
+                                         "subPhrase": "Chapter 4",
+                                         "typeOfFile": "pdf",
+                                         "isFaa": 1,
+                                         "isfavorite": 0,
+                                         "isVerified": 1,
+                                         "votes": 0
+                                         }
+
+  ],
+  "Task F: Runway Incursion Avoidance (ASEL and ASES)": [
+                                                         {
+                                                         "url": "AIM-Chapter 7 incursion",
+                                                         "phrase": "Aeronautical Information Manuel",
+                                                         "subPhrase": "Chapter 7",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         },
+                                                         {
+                                                         "url": "PHOAN-Chapter13 incursion",
+                                                         "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                                         "subPhrase": "Chapter 13",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         },
+                                                         {
+                                                         "url": "AFH-Chapter 1 incursion",
+                                                         "phrase": "Airplane Flying Handbook",
+                                                         "subPhrase": "Chapter 1",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         },
+                                                         {
+                                                         "url": "AC-150-5340-18F incursion",
+                                                         "phrase": "Standards for Airport Sign Systems",
+                                                         "subPhrase": "Full Document",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         },
+                                                         {
+                                                         "url": "AC 91-73B incursion",
+                                                         "phrase": "Procedures During Taxi Operations",
+                                                         "subPhrase": "Full Document",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         }
+  ],
+  "Task G: Before Takeoff Check (ASEL and ASES)": [
+                                                   {
+                                                   "url": "SEA-Chapter 4 before takeoff",
+                                                   "phrase": "Seaplane Handbook",
+                                                   "subPhrase": "Chapter 4",
+                                                   "typeOfFile": "pdf",
+                                                   "isFaa": 1,
+                                                   "isfavorite": 0,
+                                                   "isVerified": 1,
+                                                   "votes": 0
+                                                   },
+                                                   {
+                                                   "url": "AFH-Chapter 2 before takeoff",
+                                                   "phrase": "Airplane Flying Handbook",
+                                                   "subPhrase": "Chapter 2",
+                                                   "typeOfFile": "pdf",
+                                                   "isFaa": 1,
+                                                   "isfavorite": 0,
+                                                   "isVerified": 1,
+                                                   "votes": 0
+                                                   }
+  ],
+  "Task A: Radio Communications and ATC Light Signals (ASEL and ASES)": [
+                                                                         {
+                                                                         "url": "PHOAN-Chapter 13 Radio",
+                                                                         "phrase": "Pilots Operating Handbook",
+                                                                         "subPhrase": "Chapter 13",
+                                                                         "typeOfFile": "pdf",
+                                                                         "isFaa": 1,
+                                                                         "isfavorite": 0,
+                                                                         "isVerified": 1,
+                                                                         "votes": 0
+                                                                         },
+                                                                         {
+                                                                         "url": "AIM-Chapter 4 Radio",
+                                                                         "phrase": "Aeronautical Information Manuel",
+                                                                         "subPhrase": "Chapter 4",
+                                                                         "typeOfFile": "pdf",
+                                                                         "isFaa": 1,
+                                                                         "isfavorite": 0,
+                                                                         "isVerified": 1,
+                                                                         "votes": 0
+                                                                         }
+  ],
+  "Task B: Traffic Patterns (ASEL and ASES)": [
+                                               {
+                                               "url": "AC-90-66A Traffic",
+                                               "phrase": "Standard traffic pattern practices at uncontrolled airports",
+                                               "subPhrase": "Full Document",
+                                               "typeOfFile": "pdf",
+                                               "isFaa": 1,
+                                               "isfavorite": 0,
+                                               "isVerified": 1,
+                                               "votes": 0
+                                               },
+                                               {
+                                               "url": "PHOAN-Chapter 13 Traffic",
+                                               "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                               "subPhrase": "Chapter 13",
+                                               "typeOfFile": "pdf",
+                                               "isFaa": 1,
+                                               "isfavorite": 0,
+                                               "isVerified": 1,
+                                               "votes": 0
+                                               },
+                                               {
+                                               "url": "AFH-Chapter 7 Traffic",
+                                               "phrase": "Airplane Flying Handbook",
+                                               "subPhrase": "Chapter 7",
+                                               "typeOfFile": "pdf",
+                                               "isFaa": 1,
+                                               "isfavorite": 0,
+                                               "isVerified": 1,
+                                               "votes": 0
+                                               },
+                                               {
+                                               "url": "AIM-Chapter 4 Traffic",
+                                               "phrase": "eronautical Information Manuel",
+                                               "subPhrase": "Chapter 4",
+                                               "typeOfFile": "pdf",
+                                               "isFaa": 1,
+                                               "isfavorite": 0,
+                                               "isVerified": 1,
+                                               "votes": 0
+                                               }
+  ],
+  "Task C: Airport/Seaplane Base, Runway, and Taxiway Signs, Markings, and Lighting (ASEL and ASES)": [
+                                                                                                       {
+                                                                                                       "url": "AIM-Chapter 2 Airport lighting",
+                                                                                                       "phrase": "Aeronautical Information Manuel",
+                                                                                                       "subPhrase": "Chapter 2",
+                                                                                                       "typeOfFile": "pdf",
+                                                                                                       "isFaa": 1,
+                                                                                                       "isfavorite": 0,
+                                                                                                       "isVerified": 1,
+                                                                                                       "votes": 0
+                                                                                                       },
+                                                                                                       {
+                                                                                                       "url": "PHOAN-Chapter 13 Airport lighting",
+                                                                                                       "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                                                                                       "subPhrase": "Chapter 13",
+                                                                                                       "typeOfFile": "pdf",
+                                                                                                       "isFaa": 1,
+                                                                                                       "isfavorite": 0,
+                                                                                                       "isVerified": 1,
+                                                                                                       "votes": 0
+                                                                                                       },
+                                                                                                       {
+                                                                                                       "url": "SEA-Chapter 3 Airport lighting",
+                                                                                                       "phrase": "Seaplane Handbook",
+                                                                                                       "subPhrase": "Chapter 3",
+                                                                                                       "typeOfFile": "pdf",
+                                                                                                       "isFaa": 1,
+                                                                                                       "isfavorite": 0,
+                                                                                                       "isVerified": 1,
+                                                                                                       "votes": 0
+                                                                                                       },
+                                                                                                       {
+                                                                                                       "url": "AC-150-5340-18F Airport lighting",
+                                                                                                       "phrase": "Standards for Airport Sign Systems",
+                                                                                                       "subPhrase": "Full Document",
+                                                                                                       "typeOfFile": "pdf",
+                                                                                                       "isFaa": 1,
+                                                                                                       "isfavorite": 0,
+                                                                                                       "isVerified": 1,
+                                                                                                       "votes": 0
+                                                                                                       },
+                                                                                                       {
+                                                                                                       "url": "AC-91-73B Airport lighting",
+                                                                                                       "phrase": "Procedures During Taxi Operations",
+                                                                                                       "subPhrase": "Full Document",
+                                                                                                       "typeOfFile": "pdf",
+                                                                                                       "isFaa": 1,
+                                                                                                       "isfavorite": 0,
+                                                                                                       "isVerified": 1,
+                                                                                                       "votes": 0
+                                                                                                       }
+
+  ],
+  "Task A: Normal and Crosswind Takeoff and Climb (ASEL and ASES)": [
+                                                                     {
+                                                                     "url": "AFH-Chapter 5 Normal Takeoff",
+                                                                     "phrase": "Airplane Flying Handbook",
+                                                                     "subPhrase": "Chapter 5",
+                                                                     "typeOfFile": "pdf",
+                                                                     "isFaa": 1,
+                                                                     "isfavorite": 0,
+                                                                     "isVerified": 1,
+                                                                     "votes": 0
+                                                                     },
+                                                                     {
+                                                                     "url": "SEA-Chapter 4 Normal takeoff",
+                                                                     "phrase": "Seaplane Handbook",
+                                                                     "subPhrase": "Chapter 4",
+                                                                     "typeOfFile": "pdf",
+                                                                     "isFaa": 1,
+                                                                     "isfavorite": 0,
+                                                                     "isVerified": 1,
+                                                                     "votes": 0
+                                                                     }
+  ],
+  "Task B: Normal and Crosswind Approach and Landing": [
+                                                        {
+                                                        "url": "AFH-Chapter 8 Normal Takeoff",
+                                                        "phrase": "Airplane Flying Handbook",
+                                                        "subPhrase": "Chapter 8",
+                                                        "typeOfFile": "pdf",
+                                                        "isFaa": 1,
+                                                        "isfavorite": 0,
+                                                        "isVerified": 1,
+                                                        "votes": 0
+                                                        },
+                                                        {
+                                                        "url": "SEA-Chapter 6 Normal Takeoff",
+                                                        "phrase": "Seaplane Handbook",
+                                                        "subPhrase": "Chapter 6",
+                                                        "typeOfFile": "pdf",
+                                                        "isFaa": 1,
+                                                        "isfavorite": 0,
+                                                        "isVerified": 1,
+                                                        "votes": 0
+                                                        }
+
+  ],
+  "Task C: Soft-Field Takeoff and Climb (ASEL)": [
+                                                  {
+                                                  "url": "AFH-Chapter 5 Soft Takeoff",
+                                                  "phrase": "Airplane Flying Handbook",
+                                                  "subPhrase": "Chapter 5",
+                                                  "typeOfFile": "pdf",
+                                                  "isFaa": 1,
+                                                  "isfavorite": 0,
+                                                  "isVerified": 1,
+                                                  "votes": 0
+                                                  }
+  ],
+  "Task D: Soft-Field Approach and Landing (ASEL)": [
+  
+                                                     {
+                                                     "url": "AFH-Chapter 8 Soft Landing",
+                                                     "phrase": "Airplane Flying Handbook",
+                                                     "subPhrase": "Chapter 8",
+                                                     "typeOfFile": "pdf",
+                                                     "isFaa": 1,
+                                                     "isfavorite": 0,
+                                                     "isVerified": 1,
+                                                     "votes": 0
+                                                     }
+
+  
+  ],
+  "Task E: Short-Field Takeoff (Confined Area—ASES) and Maximum Performance Climb (ASEL and ASES)": [
+                                                                                                     {
+                                                                                                     "url": "AFH-Chapter 5 Short Takeoff",
+                                                                                                     "phrase": "Airplane Flying Handbook",
+                                                                                                     "subPhrase": "Chapter 5",
+                                                                                                     "typeOfFile": "pdf",
+                                                                                                     "isFaa": 1,
+                                                                                                     "isfavorite": 0,
+                                                                                                     "isVerified": 1,
+                                                                                                     "votes": 0
+                                                                                                     },
+                                                                                                     {
+                                                                                                     "url": "SEA-Chapter 4 Short Takeoff",
+                                                                                                     "phrase": "Seaplane Handbook",
+                                                                                                     "subPhrase": "Chapter 4",
+                                                                                                     "typeOfFile": "pdf",
+                                                                                                     "isFaa": 1,
+                                                                                                     "isfavorite": 0,
+                                                                                                     "isVerified": 1,
+                                                                                                     "votes": 0
+                                                                                                     }
+  ],
+  "Task F: Short-Field Approach (Confined Area—ASES) and Landing (ASEL and ASES)": [
+                                                                                    {
+                                                                                    "url": "AFH-Chapter 8 Short Landing",
+                                                                                    "phrase": "Airplane Flying Handbook",
+                                                                                    "subPhrase": "Chapter 8",
+                                                                                    "typeOfFile": "pdf",
+                                                                                    "isFaa": 1,
+                                                                                    "isfavorite": 0,
+                                                                                    "isVerified": 1,
+                                                                                    "votes": 0
+                                                                                    },
+                                                                                    {
+                                                                                    "url": "SEA-Chapter 6 Short Landing",
+                                                                                    "phrase": "Seaplane Handbook",
+                                                                                    "subPhrase": "Chapter 6",
+                                                                                    "typeOfFile": "pdf",
+                                                                                    "isFaa": 1,
+                                                                                    "isfavorite": 0,
+                                                                                    "isVerified": 1,
+                                                                                    "votes": 0
+                                                                                    }
+  ],
+  "Task G: Glassy Water Takeoff and Climb (ASES)": [
+                                                    {
+                                                    "url": "SEA-Chapter 4 Glassy TO",
+                                                    "phrase": "Seaplane Handbook",
+                                                    "subPhrase": "Chapter 4",
+                                                    "typeOfFile": "pdf",
+                                                    "isFaa": 1,
+                                                    "isfavorite": 0,
+                                                    "isVerified": 1,
+                                                    "votes": 0
+                                                    }
+  ],
+  "Task H: Glassy Water Approach and Landing (ASES)": [
+                                                       {
+                                                       "url": "SEA-Chapter 6 Glassy Ldg",
+                                                       "phrase": "Seaplane Handbook",
+                                                       "subPhrase": "Chapter 6",
+                                                       "typeOfFile": "pdf",
+                                                       "isFaa": 1,
+                                                       "isfavorite": 0,
+                                                       "isVerified": 1,
+                                                       "votes": 0
+                                                       }
+  ],
+  "Task I: Rough Water Takeoff and Climb (ASES)": [
+  
+                                                   {
+                                                   "url": "SEA Chapter 6 Rough TO",
+                                                   "phrase": "Seaplane Handbook",
+                                                   "subPhrase": "Chapter 6",
+                                                   "typeOfFile": "pdf",
+                                                   "isFaa": 1,
+                                                   "isfavorite": 0,
+                                                   "isVerified": 1,
+                                                   "votes": 0
+                                                   }
+  ],
+  "Task J: Rough Water Approach and Landing (ASES)": [
+                                                      {
+                                                      "url": "SEA-Chapter 6 Rough Ldg",
+                                                      "phrase": "Seaplane Handbook",
+                                                      "subPhrase": "Chapter 6",
+                                                      "typeOfFile": "pdf",
+                                                      "isFaa": 1,
+                                                      "isfavorite": 0,
+                                                      "isVerified": 1,
+                                                      "votes": 0
+                                                      }
+  ],
+  "Task K: Forward Slip to a Landing (ASEL and ASES)": [
+  
+                                                        {
+                                                        "url": "AFH-Chapter 8 Slip",
+                                                        "phrase": "Airplane Flying Handbook",
+                                                        "subPhrase": "Chapter 8",
+                                                        "typeOfFile": "pdf",
+                                                        "isFaa": 1,
+                                                        "isfavorite": 0,
+                                                        "isVerified": 1,
+                                                        "votes": 0
+                                                        }
+                                                        
+  ],
+  "Task L: Go-Around/Rejected Landing (ASEL and ASES)": [
+                                                         {
+                                                         "url": "AFH-Chapter 8 GoAround",
+                                                         "phrase": "Airplane Flying Handbook",
+                                                         "subPhrase": "Chapter 8",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         },
+                                                         {
+                                                         "url": "SEA-Chapter 6 GoAround",
+                                                         "phrase": "Seaplane Handbook",
+                                                         "subPhrase": "Chapter 6",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         }
+  ],
+  "Task A: Steep Turns (ASEL and ASES)": [
+                                          {
+                                          "url": "3-SteepTurns",
+                                          "phrase": "Airplane Flying Handbook",
+                                          "subPhrase": "Chapter 9",
+                                          "typeOfFile": "pdf",
+                                          "isFaa": 1,
+                                          "isfavorite": 0,
+                                          "isVerified": 1,
+                                          "votes": 0
+                                          }
+  ],
+  "Task A: Rectangular Course (ASEL and ASES)": [
+                                                 {
+                                                 "url": "AFH-Chapter 6 Rec Course",
+                                                 "phrase": "Airplane Flying Handbook",
+                                                 "subPhrase": "Chapter 6",
+                                                 "typeOfFile": "pdf",
+                                                 "isFaa": 1,
+                                                 "isfavorite": 0,
+                                                 "isVerified": 1,
+                                                 "votes": 0
+                                                 }
+  ],
+  "Task B: S-Turns (ASEL and ASES)": [
+                                      {
+                                      "url": "AFH-Chapter 6 STurns",
+                                      "phrase": "Airplane Flying Handbook",
+                                      "subPhrase": "Chapter 6",
+                                      "typeOfFile": "pdf",
+                                      "isFaa": 1,
+                                      "isfavorite": 0,
+                                      "isVerified": 1,
+                                      "votes": 0
+                                      }
+  ],
+  "Task C: Turns Around a Point (ASEL and ASES)": [
+                                                   {
+                                                   "url": "AFH-Chapter 6 Turns Point",
+                                                   "phrase": "Airplane Flying Handbook",
+                                                   "subPhrase": "Chapter 6",
+                                                   "typeOfFile": "pdf",
+                                                   "isFaa": 1,
+                                                   "isfavorite": 0,
+                                                   "isVerified": 1,
+                                                   "votes": 0
+                                                   }
+  ],
+  "Task A: Pilotage and Dead Reckoning (ASEL and ASES)": [
+  
+                                                          {
+                                                          "url": "PHOAN-Chapter 15 Pilotage",
+                                                          "phrase": "Pilots Handbook Of Aeronautical Knowledge",
+                                                          "subPhrase": "Chapter 15",
+                                                          "typeOfFile": "pdf",
+                                                          "isFaa": 1,
+                                                          "isfavorite": 0,
+                                                          "isVerified": 1,
+                                                          "votes": 0
+                                                          }
+  ],
+  "Task B: Navigation Systems and Radar Services (ASEL and ASES)": [
+                                                                    {
+                                                                    "url": "AAH-All navigation",
+                                                                    "phrase": "Advanced Avionics Handbook",
+                                                                    "subPhrase": "Full Document",
+                                                                    "typeOfFile": "pdf",
+                                                                    "isFaa": 1,
+                                                                    "isfavorite": 0,
+                                                                    "isVerified": 1,
+                                                                    "votes": 0
+                                                                    },
+                                                                    {
+                                                                    "url": "PHOAN-Chapter 15 navigation",
+                                                                    "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                                                    "subPhrase": "Chapter 15",
+                                                                    "typeOfFile": "pdf",
+                                                                    "isFaa": 1,
+                                                                    "isfavorite": 0,
+                                                                    "isVerified": 1,
+                                                                    "votes": 0
+                                                                    },
+                                                                    {
+                                                                    "url": "AFH-Chapter 10 navigation",
+                                                                    "phrase": "Airplane Flying Handbook",
+                                                                    "subPhrase": "Chapter 10",
+                                                                    "typeOfFile": "pdf",
+                                                                    "isFaa": 1,
+                                                                    "isfavorite": 0,
+                                                                    "isVerified": 1,
+                                                                    "votes": 0
+                                                                    },
+                                                                    {
+                                                                    "url": "AIM-Chapter 1 navigation",
+                                                                    "phrase": "Aeronautical Information Manuel",
+                                                                    "subPhrase": "Chapter 1",
+                                                                    "typeOfFile": "pdf",
+                                                                    "isFaa": 1,
+                                                                    "isfavorite": 0,
+                                                                    "isVerified": 1,
+                                                                    "votes": 0
+                                                                    }
+
+  ],
+  "Task C: Diversion (ASEL and ASES)": [
+  
+                                        {
+                                        "url": "AIM-Table Of Contents diversion",
+                                        "phrase": "Aeronautical Information Manuel",
+                                        "subPhrase": "Pilot Controller Glossary",
+                                        "typeOfFile": "pdf",
+                                        "isFaa": 1,
+                                        "isfavorite": 0,
+                                        "isVerified": 1,
+                                        "votes": 0
+                                        },
+                                        {
+                                        "url": "PHOAN-Chapter 15 diversion",
+                                        "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                        "subPhrase": "Chapter 15",
+                                        "typeOfFile": "pdf",
+                                        "isFaa": 1,
+                                        "isfavorite": 0,
+                                        "isVerified": 1,
+                                        "votes": 0
+                                        }
+  ],
+  "Task D: Lost Procedures (ASEL and ASES)": [
+                                              {
+                                              "url": "AIM-Chapter 6 Lost",
+                                              "phrase": "Aeronautical Information Manuel",
+                                              "subPhrase": "Chapter 6",
+                                              "typeOfFile": "pdf",
+                                              "isFaa": 1,
+                                              "isfavorite": 0,
+                                              "isVerified": 1,
+                                              "votes": 0
+                                              },
+                                              {
+                                              "url": "PHOAN-Chapter 15 Lost",
+                                              "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                              "subPhrase": "Chapter 15",
+                                              "typeOfFile": "pdf",
+                                              "isFaa": 1,
+                                              "isfavorite": 0,
+                                              "isVerified": 1,
+                                              "votes": 0
+                                              }
+
+  ],
+  "Task A: Maneuvering During Slow Flight (ASEL and ASES) ": [
+                                                             {
+                                                             "url": "AC-61-67C maneuvering slow",
+                                                             "phrase": "Stall and Spin Awareness Training",
+                                                             "subPhrase": "Full Document",
+                                                             "typeOfFile": "pdf",
+                                                             "isFaa": 1,
+                                                             "isfavorite": 0,
+                                                             "isVerified": 1,
+                                                             "votes": 0
+                                                             },
+                                                             {
+                                                             "url": "PHOAN-Chapter 4 maneuvering slow",
+                                                             "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                                             "subPhrase": "Chapter 4",
+                                                             "typeOfFile": "pdf",
+                                                             "isFaa": 1,
+                                                             "isfavorite": 0,
+                                                             "isVerified": 1,
+                                                             "votes": 0
+                                                             }
+  ],
+  "Task B: Power-Off Stalls (ASEL and ASES) ": [
+                                               {
+                                               "url": "AC-61-67C off stalls",
+                                               "phrase": "Stall and Spin Awareness Training",
+                                               "subPhrase": "Full Document",
+                                               "typeOfFile": "pdf",
+                                               "isFaa": 1,
+                                               "isfavorite": 0,
+                                               "isVerified": 1,
+                                               "votes": 0
+                                               },
+                                               {
+                                               "url": "PHOAN-Chapter 4 off stalls",
+                                               "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                               "subPhrase": "Chapter 4",
+                                               "typeOfFile": "pdf",
+                                               "isFaa": 1,
+                                               "isfavorite": 0,
+                                               "isVerified": 1,
+                                               "votes": 0
+                                               }
+
+  ],
+  "Task C: Power-On Stalls (ASEL and ASES)": [
+  
+                                              {
+                                              "url": "AC-61-67C on stalls",
+                                              "phrase": "Stall and Spin Awareness Training",
+                                              "subPhrase": "Full Document",
+                                              "typeOfFile": "pdf",
+                                              "isFaa": 1,
+                                              "isfavorite": 0,
+                                              "isVerified": 1,
+                                              "votes": 0
+                                              },
+                                              {
+                                              "url": "PHOAN-Chapter 4 on stalls",
+                                              "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                              "subPhrase": "Chapter 4",
+                                              "typeOfFile": "pdf",
+                                              "isFaa": 1,
+                                              "isfavorite": 0,
+                                              "isVerified": 1,
+                                              "votes": 0
+                                              }
+  ],
+  "Task D: Spin Awareness (ASEL and ASES) ": [
+                                             {
+                                             "url": "AC-61-67C spin",
+                                             "phrase": "Stall and Spin Awareness Training",
+                                             "subPhrase": "Full Document",
+                                             "typeOfFile": "pdf",
+                                             "isFaa": 1,
+                                             "isfavorite": 0,
+                                             "isVerified": 1,
+                                             "votes": 0
+                                             },
+                                             {
+                                             "url": "PHOAN-Chapter 4 spin",
+                                             "phrase": "Pilots Handbook of Aeronautical Knowledge",
+                                             "subPhrase": "Chapter 4",
+                                             "typeOfFile": "pdf",
+                                             "isFaa": 1,
+                                             "isfavorite": 0,
+                                             "isVerified": 1,
+                                             "votes": 0
+                                             }
+  ],
+  "Task A: Straight-and-Level Flight (ASEL and ASES)": [
+                                                        {
+                                                        "url": "AFH-Chapter 16 straight and level",
+                                                        "phrase": "Airplane Flying Handbook",
+                                                        "subPhrase": "Chapter 16",
+                                                        "typeOfFile": "pdf",
+                                                        "isFaa": 1,
+                                                        "isfavorite": 0,
+                                                        "isVerified": 1,
+                                                        "votes": 0
+                                                        },
+                                                        {
+                                                        "url": "IFH-Chapter 4 and 5 straight and level",
+                                                        "phrase": "Instrument Flying Handbook",
+                                                        "subPhrase": "Chapter 4 and 5",
+                                                        "typeOfFile": "pdf",
+                                                        "isFaa": 1,
+                                                        "isfavorite": 0,
+                                                        "isVerified": 1,
+                                                        "votes": 0
+                                                        }
+  ],
+  "Task B: Constant Airspeed Climbs (ASEL and ASES)": [
+                                                       {
+                                                       "url": "AFH-Chapter 16 const climbs",
+                                                       "phrase": "Airplane Flying Handbook",
+                                                       "subPhrase": "Chapter 16",
+                                                       "typeOfFile": "pdf",
+                                                       "isFaa": 1,
+                                                       "isfavorite": 0,
+                                                       "isVerified": 1,
+                                                       "votes": 0
+                                                       },
+                                                       {
+                                                       "url": "IFH-Chapter 4 and 5 const climbs",
+                                                       "phrase": "Instrument Flying Handbook",
+                                                       "subPhrase": "Chapter 4 and 5",
+                                                       "typeOfFile": "pdf",
+                                                       "isFaa": 1,
+                                                       "isfavorite": 0,
+                                                       "isVerified": 1,
+                                                       "votes": 0
+                                                       }
+  ],
+  "Task C: Constant Airspeed Descents (ASEL and ASES)": [
+                                                         {
+                                                         "url": "AFH-Chapter 16 const descent",
+                                                         "phrase": "Airplane Flying Handbook",
+                                                         "subPhrase": "Chapter 16",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         },
+                                                         {
+                                                         "url": "IFH-Chapter 4 and 5 const descent",
+                                                         "phrase": "Instrument Flying Handbook",
+                                                         "subPhrase": "Chapter 4 and 5",
+                                                         "typeOfFile": "pdf",
+                                                         "isFaa": 1,
+                                                         "isfavorite": 0,
+                                                         "isVerified": 1,
+                                                         "votes": 0
+                                                         }
+  ],
+  "Task D: Turns to Headings (ASEL and ASES) ": [
+                                                {
+                                                "url": "AFH-Chapter 16 turns heading",
+                                                "phrase": "Airplane Flying Handbook",
+                                                "subPhrase": "Chapter 16",
+                                                "typeOfFile": "pdf",
+                                                "isFaa": 1,
+                                                "isfavorite": 0,
+                                                "isVerified": 1,
+                                                "votes": 0
+                                                },
+                                                {
+                                                "url": "IFH-Chapter 4 and 5 turns heading",
+                                                "phrase": "Instrument Flying Handbook",
+                                                "subPhrase": "Chapter 4 and 5",
+                                                "typeOfFile": "pdf",
+                                                "isFaa": 1,
+                                                "isfavorite": 0,
+                                                "isVerified": 1,
+                                                "votes": 0
+                                                }
+  ],
+  "Task E: Recovery from Unusual Flight Attitudes (ASEL and ASES)": [
+                                                                     {
+                                                                     "url": "AFH-Chapter 16 unusual attitude",
+                                                                     "phrase": "Airplane Flying Handbook",
+                                                                     "subPhrase": "Chapter 16",
+                                                                     "typeOfFile": "pdf",
+                                                                     "isFaa": 1,
+                                                                     "isfavorite": 0,
+                                                                     "isVerified": 1,
+                                                                     "votes": 0
+                                                                     },
+                                                                     {
+                                                                     "url": "IFH-Chapter 4 and 5 unusual attitude",
+                                                                     "phrase": "Instrument Flying Handbook",
+                                                                     "subPhrase": "Chapter 4 and 5",
+                                                                     "typeOfFile": "pdf",
+                                                                     "isFaa": 1,
+                                                                     "isfavorite": 0,
+                                                                     "isVerified": 1,
+                                                                     "votes": 0
+                                                                     }
+  ],
+  "Task F: Radio Communications, Navigation Systems/Facilities, and Radar Services (ASEL and ASES)": [
+                                                                                                      {
+                                                                                                      "url": "AFH-Chapter 10 inst services",
+                                                                                                      "phrase": "Airplane Flying Handbook",
+                                                                                                      "subPhrase": "Chapter 10",
+                                                                                                      "typeOfFile": "pdf",
+                                                                                                      "isFaa": 1,
+                                                                                                      "isfavorite": 0,
+                                                                                                      "isVerified": 1,
+                                                                                                      "votes": 0
+                                                                                                      },
+                                                                                                      {
+                                                                                                      "url": "IFH-Chapter 7 inst services",
+                                                                                                      "phrase": "Instrument Flying Handbook",
+                                                                                                      "subPhrase": "Chapter 7",
+                                                                                                      "typeOfFile": "pdf",
+                                                                                                      "isFaa": 1,
+                                                                                                      "isfavorite": 0,
+                                                                                                      "isVerified": 1,
+                                                                                                      "votes": 0
+                                                                                                      },
+                                                                                                      {
+                                                                                                      "url": "PHOAN-Chapter 15 inst services",
+                                                                                                      "phrase": "Pilots handbook Of Aeronautical Knowledge",
+                                                                                                      "subPhrase": "Chapter 15",
+                                                                                                      "typeOfFile": "pdf",
+                                                                                                      "isFaa": 1,
+                                                                                                      "isfavorite": 0,
+                                                                                                      "isVerified": 1,
+                                                                                                      "votes": 0
+                                                                                                      }
+  ],
+  "Task A: Emergency Descent (ASEL and ASES)": [
+                                                {
+                                                "url": "AFH-Chapter 16 emrg descent",
+                                                "phrase": "Airplane Flying Handbook",
+                                                "subPhrase": "Chapter 16",
+                                                "typeOfFile": "pdf",
+                                                "isFaa": 1,
+                                                "isfavorite": 0,
+                                                "isVerified": 1,
+                                                "votes": 0
+                                                }
+
+  ],
+  "Task B: Emergency Approach and Landing (Simulated) (ASEL and ASES)": [
+                                                                         {
+                                                                         "url": "AFH-Chapter 16 emrg ldg",
+                                                                         "phrase": "Airplane Flying Handbook",
+                                                                         "subPhrase": "Chapter 16",
+                                                                         "typeOfFile": "pdf",
+                                                                         "isFaa": 1,
+                                                                         "isfavorite": 0,
+                                                                         "isVerified": 1,
+                                                                         "votes": 0
+                                                                         },
+                                                                         {
+                                                                         "url": "SEA-Chapter 6 emrg ldg",
+                                                                         "phrase": "Seaplane Flying Handbook",
+                                                                         "subPhrase": "Chapter 6",
+                                                                         "typeOfFile": "pdf",
+                                                                         "isFaa": 1,
+                                                                         "isfavorite": 0,
+                                                                         "isVerified": 1,
+                                                                         "votes": 0
+                                                                         }
+  ],
+  "Task C: Systems and Equipment Malfunctions (ASEL and ASES)": [
+                                                                 {
+                                                                 "url": "AFH-Chapter 16 malfunction",
+                                                                 "phrase": "Airplane Flying Handbook",
+                                                                 "subPhrase": "Chapter 16",
+                                                                 "typeOfFile": "pdf",
+                                                                 "isFaa": 1,
+                                                                 "isfavorite": 0,
+                                                                 "isVerified": 1,
+                                                                 "votes": 0
+                                                                 }
+  ],
+  "Task D: Emergency Equipment and Survival Gear (ASEL and ASES)": [
+                                                                    {
+                                                                    "url": "AFH-Chapter 16 survival gear",
+                                                                    "phrase": "Airplane Flying Handbook",
+                                                                    "subPhrase": "Chapter 16",
+                                                                    "typeOfFile": "pdf",
+                                                                    "isFaa": 1,
+                                                                    "isfavorite": 0,
+                                                                    "isVerified": 1,
+                                                                    "votes": 0
+                                                                    }
+  ],
+  "Task A: Night Preparation (ASEL and ASES)": [
+                                                {
+                                                "url": "AFH-Chapter 10 night",
+                                                "phrase": "Airplane Flying Handbook",
+                                                "subPhrase": "Chapter 10",
+                                                "typeOfFile": "pdf",
+                                                "isFaa": 1,
+                                                "isfavorite": 0,
+                                                "isVerified": 1,
+                                                "votes": 0
+                                                },
+                                                {
+                                                "url": "AIM-Chapter 2 night",
+                                                "phrase": "Aeronautical Information Manuel",
+                                                "subPhrase": "Chapter 2",
+                                                "typeOfFile": "pdf",
+                                                "isFaa": 1,
+                                                "isfavorite": 0,
+                                                "isVerified": 1,
+                                                "votes": 0
+                                                },
+                                                {
+                                                "url": "PHOAN-Chapter 16 night",
+                                                "phrase": "Pilots handbook Of Aeronautical Knowledge",
+                                                "subPhrase": "Chapter 16",
+                                                "typeOfFile": "pdf",
+                                                "isFaa": 1,
+                                                "isfavorite": 0,
+                                                "isVerified": 1,
+                                                "votes": 0
+                                                }
+
+  ],
+  "Task A: After Landing, Parking, and Securing (ASEL and ASES)": [
+  
+                                                                   {
+                                                                   "url": "AFH-Chapter 2 after ldg",
+                                                                   "phrase": "Airplane Flying Handbook",
+                                                                   "subPhrase": "Chapter 2",
+                                                                   "typeOfFile": "pdf",
+                                                                   "isFaa": 1,
+                                                                   "isfavorite": 0,
+                                                                   "isVerified": 1,
+                                                                   "votes": 0
+                                                                   },
+                                                                   {
+                                                                   "url": "SEA Chapter 6 after ldg",
+                                                                   "phrase": "Seaplane Flying Handbook",
+                                                                   "subPhrase": "Chapter 6",
+                                                                   "typeOfFile": "pdf",
+                                                                   "isFaa": 1,
+                                                                   "isfavorite": 0,
+                                                                   "isVerified": 1,
+                                                                   "votes": 0
+                                                                   }
+  ],
+  "Task B: Anchoring (ASES)": [
+                               {
+                               "url": "SEA Chapter 6 anchoring",
+                               "phrase": "Seaplane Flying Handbook",
+                               "subPhrase": "Chapter 6",
+                               "typeOfFile": "pdf",
+                               "isFaa": 1,
+                               "isfavorite": 0,
+                               "isVerified": 1,
+                               "votes": 0
+                               }
+  ],
+  "Task C: Docking and Mooring (ASES)": [
+                                          {
+                                          "url": "SEA Chapter 6 dock moor",
+                                          "phrase": "Seaplane Flying Handbook",
+                                          "subPhrase": "Chapter 6",
+                                          "typeOfFile": "pdf",
+                                          "isFaa": 1,
+                                          "isfavorite": 0,
+                                          "isVerified": 1,
+                                          "votes": 0
+                                          }
+  ],
+  "Task D: Ramping/Beaching (ASES)": [
+                                      {
+                                      "url": "SEA Chapter 6 ramp beach",
+                                      "phrase": "Seaplane Flying Handbook",
+                                      "subPhrase": "Chapter 6",
+                                      "typeOfFile": "pdf",
+                                      "isFaa": 1,
+                                      "isfavorite": 0,
+                                      "isVerified": 1,
+                                      "votes": 0
+                                      }
+  ]
+ }
+
