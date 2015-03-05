@@ -59,7 +59,8 @@
   for (AOOs *a in self.arrayOfAOOs){
     [self checkAOOisComplete:a];
   }
-  [self.navigationController.tabBarItem setImage:[[UIImage imageNamed:@"FlightBag.jpeg"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ]];
+  
+  [self.navigationController.tabBarItem setImage:[[UIImage imageNamed:@"PPLPTS.jpeg"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ]];
   
 }
 

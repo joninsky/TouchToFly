@@ -40,6 +40,8 @@
     
   }
   
+  [self.navigationController.tabBarItem setImage:[[UIImage imageNamed:@"FlightBag.jpeg"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ]];
+  
   
 }
 

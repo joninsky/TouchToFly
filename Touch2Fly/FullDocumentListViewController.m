@@ -26,7 +26,7 @@
   self.myTableView.dataSource = self;
   self.myTableView.delegate = self;
   
-  self.arrayOfDocuments = [NSArray arrayWithObjects: @"AC 150-5340-18F Standards for Airport Signs", @"AC 00-6A Aviation Weather", @"AC 61-67C  Stall and Spin Training", @"AC 91-73B Taxi Operations", @"AC-00-45G Aviation Weather Services", @"AC 61-84B Role of Preflight Preparation", @"AC 90-66A Standard Traffic Patterns at Uncontrolled Airports", @"AC 91-13C Cold Weather Operations", @"AC 91-55 Reduction of Electrical Failures", @"Aeronautical Information Manual", @"Coast Guard Navigation Rules and Regulations Handbook", @"errata_sheet_150_5340_18f", @"Seaplane Operations Handbook", @"Instrument Flying Handbook", @"Aircraft Weight and Balance Handbook", @"Pilots Handbook Of Aeronautical Knowledge", @"Airplane Flying Handbook", @"Advanced Avionics Handbook", nil];
+  self.arrayOfDocuments = [NSArray arrayWithObjects: @"AC 150-5340-18F Standards for Airport Signs", @"AC 00-6A Aviation Weather", @"AC 61-67C  Stall and Spin Training", @"AC 91-73B Taxi Operations", @"AC-00-45G Aviation Weather Services", @"AC 61-84B Role of Preflight Preparation", @"AC 90-66A Standard Traffic Patterns at Uncontrolled Airports", @"AC 91-13C Cold Weather Operations", @"AC 91-55 Reduction of Electrical Failures", @"Coast Guard Navigation Rules and Regulations Handbook", @"errata_sheet_150_5340_18f",  @"Aircraft Weight and Balance Handbook", @"Airplane Flying Handbook", @"Advanced Avionics Handbook", nil];
   
   self.previewController = [[QLPreviewController alloc]init];
   self.previewController.dataSource = self;

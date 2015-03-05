@@ -33,6 +33,10 @@
   
   UINavigationController *aooNavigationController = tabBarController.viewControllers[0];
   
+  UINavigationController *moreStuff = tabBarController.viewControllers[1];
+  
+    [moreStuff.tabBarItem setImage:[[UIImage imageNamed:@"FlightBag.jpeg"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ]];
+  
   AOOViewController *aooViewController = aooNavigationController.viewControllers[0];
   
   TaskViewController *taskViewController = self.detailViewNavigationController.viewControllers[0];

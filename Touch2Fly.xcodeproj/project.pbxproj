@@ -17,7 +17,8 @@
 		4EA48EA51A903B75002B7717 /* Seed.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EA48EA41A903B75002B7717 /* Seed.json */; };
 		4EBCC5321AA7913800205AAA /* PPLData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCC5311AA7913800205AAA /* PPLData.sqlite */; };
 		4EBCC5361AA794A900205AAA /* Decision.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBCC5351AA794A900205AAA /* Decision.m */; };
-		4EBCC5381AA7DB8800205AAA /* FlightBag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCC5371AA7DB8800205AAA /* FlightBag.jpeg */; };
+		4EBCC53A1AA8196400205AAA /* FlightBag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCC5391AA8196400205AAA /* FlightBag.jpeg */; };
+		4EBCC53C1AA81AB300205AAA /* PPLPTS.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCC53B1AA81AB300205AAA /* PPLPTS.jpeg */; };
 		4ED91E581A9A973C00D8E24F /* AC-150-5340-18F Airport lighting.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D901A9A973C00D8E24F /* AC-150-5340-18F Airport lighting.pdf */; };
 		4ED91E591A9A973C00D8E24F /* AC-91-73B Airport lighting.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D911A9A973C00D8E24F /* AC-91-73B Airport lighting.pdf */; };
 		4ED91E5A1A9A973C00D8E24F /* AIM-Chapter 2 Airport lighting.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4ED91D921A9A973C00D8E24F /* AIM-Chapter 2 Airport lighting.pdf */; };
@@ -200,7 +201,8 @@
 		4EBCC5331AA793B500205AAA /* Touch2FlyWithDecision.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Touch2FlyWithDecision.xcdatamodel; sourceTree = "<group>"; };
 		4EBCC5341AA794A900205AAA /* Decision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decision.h; sourceTree = "<group>"; };
 		4EBCC5351AA794A900205AAA /* Decision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decision.m; sourceTree = "<group>"; };
-		4EBCC5371AA7DB8800205AAA /* FlightBag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FlightBag.jpeg; sourceTree = "<group>"; };
+		4EBCC5391AA8196400205AAA /* FlightBag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FlightBag.jpeg; sourceTree = "<group>"; };
+		4EBCC53B1AA81AB300205AAA /* PPLPTS.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PPLPTS.jpeg; sourceTree = "<group>"; };
 		4ED91D901A9A973C00D8E24F /* AC-150-5340-18F Airport lighting.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-150-5340-18F Airport lighting.pdf"; sourceTree = "<group>"; };
 		4ED91D911A9A973C00D8E24F /* AC-91-73B Airport lighting.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AC-91-73B Airport lighting.pdf"; sourceTree = "<group>"; };
 		4ED91D921A9A973C00D8E24F /* AIM-Chapter 2 Airport lighting.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "AIM-Chapter 2 Airport lighting.pdf"; sourceTree = "<group>"; };
@@ -1234,7 +1236,8 @@
 			isa = PBXGroup;
 			children = (
 				4E21FAB51A8E704D0013469E /* redx.png */,
-				4EBCC5371AA7DB8800205AAA /* FlightBag.jpeg */,
+				4EBCC5391AA8196400205AAA /* FlightBag.jpeg */,
+				4EBCC53B1AA81AB300205AAA /* PPLPTS.jpeg */,
 				4E21FAB31A8E70460013469E /* greenCheck.png */,
 				4EFF761B1A87F0F1001439BC /* Images.xcassets */,
 			);
@@ -1339,6 +1342,7 @@
 				4EEF04901AA4FA5500F5DA72 /* SEA Chapter 6 ramp beach.pdf in Resources */,
 				4ED91EBF1A9A973C00D8E24F /* SEA-Chapter 4 Tand S.pdf in Resources */,
 				4ED91EA41A9A973C00D8E24F /* PHOAN-Chapter 4 and 10 performance.pdf in Resources */,
+				4EBCC53C1AA81AB300205AAA /* PPLPTS.jpeg in Resources */,
 				4ED91E8C1A9A973C00D8E24F /* AAH-All navigation.pdf in Resources */,
 				4ED91EAD1A9A973C00D8E24F /* PHOAN-Chapter 11 and 12 Weather.pdf in Resources */,
 				4ED91E621A9A973C00D8E24F /* PHOAN-Chapter 13 Traffic.pdf in Resources */,
@@ -1347,6 +1351,7 @@
 				4ED91E6F1A9A973C00D8E24F /* Instrument Flying Handbook.pdf in Resources */,
 				4ED91EB11A9A973C00D8E24F /* AC-91-13C Engine start.pdf in Resources */,
 				4EDBE7171A8AA8BA00274F23 /* TaskCellController.xib in Resources */,
+				4EBCC53A1AA8196400205AAA /* FlightBag.jpeg in Resources */,
 				4ED91E8A1A9A973C00D8E24F /* AIM-Chapter 6 Lost.pdf in Resources */,
 				4ED91E851A9A973C00D8E24F /* AFH-Chapter 6 Rec Course.pdf in Resources */,
 				4E21FAB61A8E704D0013469E /* redx.png in Resources */,
@@ -1374,7 +1379,6 @@
 				4ED91E941A9A973C00D8E24F /* 3-SteepTurns.pdf in Resources */,
 				4ED91E721A9A973C00D8E24F /* Airplane Flying Handbook.pdf in Resources */,
 				4ED91E6E1A9A973C00D8E24F /* errata_sheet_150_5340_18f.pdf in Resources */,
-				4EBCC5381AA7DB8800205AAA /* FlightBag.jpeg in Resources */,
 				4ED91E961A9A973C00D8E24F /* AIM-Chapter 8 Aeromadical.pdf in Resources */,
 				4ED91E7C1A9A973C00D8E24F /* IFH-Chapter 4 and 5 unusual attitude.pdf in Resources */,
 				4ED91E841A9A973C00D8E24F /* AFH-Chapter 16 malfunction.pdf in Resources */,

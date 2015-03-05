@@ -256,11 +256,11 @@
             </objects>
             <point key="canvasLocation" x="288" y="870"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--More Stuff-->
         <scene sceneID="sT8-cx-ZIF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="deF-WD-jUq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="1" systemItem="more" id="kg7-cr-xUq"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="More Stuff" id="kg7-cr-xUq"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="efb-K8-GXi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
